@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Du Lịch</title>
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Arizonia&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/afeld/bootstrap-toc/v1.0.1/dist/bootstrap-toc.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/owl.theme.default.min.css">
+	<link rel="stylesheet" href="css/magnific-popup.css">
+	<link rel="stylesheet" href="css/bootstrap-datepicker.css">
+	<link rel="stylesheet" href="css/jquery.timepicker.css">
+	<link rel="stylesheet" href="css/flaticon.css">
+	<link rel="stylesheet" href="css/bootstrap.style.css">
+	<link rel="stylesheet" href="css/gnillevart.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+	<nav class="navbar navbar-expand-lg navbar-dark gnill_navbar bg-dark gnill-navbar-light" id="gnill-navbar">
+		<div class="container">
+			<a class="navbar-brand" href="index.html">Gnillevart</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#gnill-nav" aria-controls="gnill-nav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="oi oi-menu"></span> Menu
+			</button>
+
+			<div class="collapse navbar-collapse" id="gnill-nav">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item"><a href="index.html" class="nav-link"><span class="fa-solid fa-house"></span> Trang chủ</a></li>
+					<li class="nav-item"><a href="thongtin.html" class="nav-link"><span class="fa-solid fa-people-group"></span> Thông tin</a></li>
+					<li class="nav-item"><a href="dulich.html" class="nav-link"><span class="fa-solid fa-mountain"></span> Du lịch</a></li>
+					<li class="nav-item active"><a href="lienhe.html" class="nav-link"><span class="fa-solid fa-message"></span> Liên hệ</a></li>
+					<li class="nav-item"><a href="#" class="nav-link" data-toggle="modal"
+						data-target="#modalLoginForm"><span class="fa-solid fa-user"></span> Tài khoản</a></div></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<!--NAV END-->
+
+    <div class="gnill-top-bg js-fullheight" style="background-image: url(assets/images/Carousel03.jpg); height: 650px;">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="row no-gutters slider-text js-fullheight align-items-end justify-content-center">
+                <div class="col-md-9 gnill-animate pb-5 text-center">
+                 <p class="breadcrumbs">
+                    <span class="mr-2">
+                        <a href="index.html">
+                            Trang chủ <i class="fa fa-chevron-right"></i>
+                        </a>
+                    </span> 
+                    <span class="mr-2">
+                            Liên hệ <i class="fa fa-chevron-right"></i>
+                    </span> 
+                </p>
+                 <h1 class="mb-0 bread">Liên lạc với chúng tôi</h1>
+               </div>
+             </div>
+		</div>
+    </div>
+	<!--TOP END-->
+
+    <div class="modal fade position-fixed" id="modalLoginForm">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header text-center">
+                    <h4 class="modal-title w-100 font-weight-bold">Đăng nhập</h4>
+                    <button type="button" class="close" data-dismiss="modal">
+                        <span aria-hidden="true"><i class="fa fa-times" aria-hidden="true"></i></span>
+                    </button>
+                </div>
+
+                <div class="modal-body mx-3">
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Email hoặc Tên Đăng Nhập</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Example@email.com">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="exampleInputPassword1">Mật khẩu</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Mật khẩu">
+                    </div>
+                    <div class="row mb-4">
+                        <div class="col d-flex justify-content-center">
+                            <div class="form-check">
+                                <input type="checkbox" class="form-check-input" id="exampleCheck1" checked>
+                                <label class="form-check-label" for="exampleCheck1">Ghi nhớ đăng nhập</label>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <a href="#!">Quên mật khẩu?</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer justify-content-center">
+                    <button type="submit" class="btn btn-outline-dark">Đăng nhập</button>
+                </div>
+                <div class="text-center">
+                    <p>Chưa có tài khoản? <a class="nav-link" href="#" data-toggle="modal" 
+                        data-target="#modalRegisterForm" data-dismiss="modal">Đăng ký</a></p>
+                    <button type="button" class="btn btn-link btn-floating mx-1">
+                      <i class="fa-brands fa-facebook-f"></i>
+                    </button>
+                
+                    <button type="button" class="btn btn-link btn-floating mx-1">
+                      <i class="fa-brands fa-google"></i>
+                    </button>
+                
+                    <button type="button" class="btn btn-link btn-floating mx-1">
+                      <i class="fa-brands fa-twitter"></i>
+                    </button>
+                
+                    <button type="button" class="btn btn-link btn-floating mx-1">
+                      <i class="fa-brands fa-github" title="github"></i>
+                    </button>
+                  </div>
+            </div>
+        </div>
+    </div>
+	<!--LOGIN FORM END-->
+
+    <div class="modal fade position-fixed" id="modalRegisterForm">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header text-center">
+                    <h4 class="modal-title w-100 font-weight-bold">Đăng Ký</h4>
+                    <button type="button" class="close" data-dismiss="modal">
+                        <span aria-hidden="true"><i class="fa fa-times" aria-hidden="true"></i></span>
+                    </button>
+                </div>
+
+                <div class="modal-body mx-3">
+                    <div class="form-group">
+                        <label for="InputName">Tên Đăng Nhập</label>
+                        <input type="email" class="form-control" id="InputName" 
+                        aria-describedby="emailHelp" placeholder="Nhập tên đăng nhập">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="InputEmail1">Địa chỉ Email</label>
+                        <input type="email" class="form-control" id="InputEmail1" 
+                        aria-describedby="emailHelp" placeholder="Example@email.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="InputPassword1">Mật khẩu</label>
+                        <input type="password" class="form-control" id="InputPassword1" placeholder="Mật khẩu">
+                    </div>
+                    
+                </div>
+                <div class="modal-footer justify-content-center">
+                    <button type="submit" class="btn btn-outline-dark">Đăng ký</button>
+                </div>
+                <div class="text-center">
+                    <p>Đã có tài khoản? <a class="nav-link" href="#" data-toggle="modal" 
+                        data-target="#modalLoginForm" data-dismiss="modal">Đăng nhập</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+	<!--REGIS FORM END-->
+
+    <section class="gnill-section gnill-no-pb contact-section mb-4">
+        <div class="container">
+          <div class="row d-flex contact-info">
+            <div class="col-md-4 d-flex">
+             <div class="align-self-stretch box p-4 text-center">
+              <div class="icon d-flex align-items-center justify-content-center">
+               <span class="fa fa-map-marker"></span>
+             </div>
+             <h3 class="mb-2">Địa chỉ</h3>
+             <p>127 Đường Lê Hồng Phong, Trường Thi, Thành phố Vinh, Nghệ An</p>
+           </div>
+         </div>
+         <div class="col-md-4 d-flex">
+           <div class="align-self-stretch box p-4 text-center">
+            <div class="icon d-flex align-items-center justify-content-center">
+             <span class="fa fa-phone"></span>
+           </div>
+           <h3 class="mb-2">Số liên lạc</h3>
+           <p><a href="tel://1234567920">+84 904 786 893</a></p>
+         </div>
+       </div>
+       <div class="col-md-4 d-flex">
+         <div class="align-self-stretch box p-4 text-center">
+          <div class="icon d-flex align-items-center justify-content-center">
+           <span class="fa fa-paper-plane"></span>
+         </div>
+         <h3 class="mb-2">Địa chỉ email</h3>
+         <p><a href="mailto:info@yoursite.com">manhphuc2003@gmail.com</a></p>
+       </div>
+      </div>
+      </div>
+      </div>
+      </section>
+
+    <section class="gnill-section contact-section gnill-no-pt mt-5">
+        <div class="container">
+          <div class="row block-9">
+            <div class="col-md-6 order-md-last d-flex">
+              <form action="#" class="bg-light p-5 contact-form">
+                <div class="form-group">
+                  <input type="text" class="form-control" placeholder="Tên">
+                </div>
+                <div class="form-group">
+                  <input type="text" class="form-control" placeholder="Địa chỉ email">
+                </div>
+                <div class="form-group">
+                  <input type="text" class="form-control" placeholder="Tiêu đề">
+                </div>
+                <div class="form-group">
+                  <textarea name="" id="" cols="30" rows="7" class="form-control" placeholder="Lời nhắn, câu hỏi của bạn cho cho chúng tôi"></textarea>
+                </div>
+                <div class="form-group">
+                  <input type="submit" value="Gửi" class="btn btn-primary py-3 px-5">
+                </div>
+              </form>
+              
+            </div>
+      
+            <div class="col-md-6 d-flex">
+             <div id="map" class="bg-white"></div>
+           </div>
+         </div>
+       </div>
+      </section>
+
+
+
+    <!-- Footer -->
+    <footer class="gnill-footer bg-bottom gnill-no-pt bg-dark" style="background-image: url(assets/images/footerBG.jpg);">
+        <div class="container">
+              <div class="row mb-5">
+                <div class="col-md pt-5">
+                    <div class="gnill-footer-widget pt-md-5 mb-4">
+                        <h2 class="gnill-heading-2">Giới thiệu</h2>
+                        <p>
+                            Phương châm của chúng tôi là mang đến cho khách hàng những dịch vụ du lịch tốt nhất, rẻ nhất và ý nghĩa nhất. Trả lời thắc mắc và câu hỏi của các bạn là nghĩa vụ của chúng tôi. 
+                        </p>
+                        <ul class="gnill-footer-social list-unstyled float-md-left float-lft">
+                            <li class="gnill-animate"><a href="#"><span class="fa-brands fa-twitter"></span></a></li>
+                            <li class="gnill-animate"><a href="#"><span class="fa-brands fa-facebook"></span></a></li>
+                            <li class="gnill-animate"><a href="#"><span class="fa-brands fa-instagram"></span></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md pt-5 border-left">
+                      <div class="gnill-footer-widget pt-md-5 mb-4 ml-md-5">
+                        <h2 class="gnill-heading-2">Thông tin</h2>
+                        <ul class="list-unstyled">
+                              <li><a href="dulich.html" class="py-2 d-block">Điểm du lịch</a></li>
+                            <li><a href="car-rent-page-1.html" class="py-2 d-block">Xe du lịch</a></li>
+                            <li><a href="lienhe.html" class="py-2 d-block">Liên hệ với chúng tôi</a></li>
+                            <li><a href="thongtin.html" class="py-2 d-block">Thông tin về chúng tôi</a></li>
+                        </ul>
+                      </div>
+                </div>
+                <div class="col-md pt-5 border-left">
+                    <div class="gnill-footer-widget pt-md-5 mb-4">
+                        <h2 class="gnill-heading-2">Bạn có thắc mắc?</h2>
+                        <div class="block-23 mb-3">
+                            <ul>
+                                <li><span class="icon fa fa-map-marker"></span><span class="text">127 Đường Lê Hồng Phong, Trường Thi, Thành phố Vinh, Nghệ An</span></li>
+                                <li><a href="#"><span class="icon fa fa-phone"></span><span class="text">+84 904 786 893</span></a></li>
+                                <li><a href="#"><span class="icon fa fa-paper-plane"></span><span class="text">manhphuc2003@gmail.com</span></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <p>
+                        &copy;<script>document.write(new Date().getFullYear());</script> GNILLEVART
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery-migrate-3.0.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="https://cdn.rawgit.com/afeld/bootstrap-toc/v1.0.1/dist/bootstrap-toc.min.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/jquery.stellar.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/jquery.animateNumber.min.js"></script>
+    <script src="js/bootstrap-datepicker.js"></script>
+    <script src="js/scrollax.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+    <script src="js/google-map.js"></script>
+    <script src="js/gnillevart.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang Chủ</title>
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Arizonia&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/owl.theme.default.min.css">
+	<link rel="stylesheet" href="css/magnific-popup.css">
+	<link rel="stylesheet" href="css/bootstrap-datepicker.css">
+	<link rel="stylesheet" href="css/jquery.timepicker.css">
+	<link rel="stylesheet" href="css/flaticon.css">
+	<link rel="stylesheet" href="css/bootstrap.style.css">
+	<link rel="stylesheet" href="css/gnillevart.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+	<nav class="navbar navbar-expand-lg navbar-dark gnill_navbar bg-dark gnill-navbar-light" id="gnill-navbar">
+		<div class="container">
+			<a class="navbar-brand" href="index.html">Gnillevart</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#gnill-nav" aria-controls="gnill-nav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="oi oi-menu"></span> Menu
+			</button>
+
+			<div class="collapse navbar-collapse" id="gnill-nav">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item active"><a href="index.html" class="nav-link"><span class="fa-solid fa-house"></span> Trang chủ</a></li>
+					<li class="nav-item"><a href="thongtin.html" class="nav-link"><span class="fa-solid fa-people-group"></span> Thông tin</a></li>
+					<li class="nav-item"><a href="dulich.html" class="nav-link"><span class="fa-solid fa-mountain"></span> Du lịch</a></li>
+					<li class="nav-item"><a href="lienhe.html" class="nav-link"><span class="fa-solid fa-message"></span> Liên hệ</a></li>
+					<li class="nav-item"><a href="#" class="nav-link" data-toggle="modal"
+						data-target="#modalLoginForm"><span class="fa-solid fa-user"></span> Tài khoản</a></div></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<!--NAV END-->
+
+    <div class="gnill-top-bg js-fullheight" style="background-image: url(assets/gif/Background0.gif); height: 650px;">
+        <div class="overlay"></div>
+        <div class="container">
+			<div class="row no-gutters slider-text js-fullheight align-items-center" data-scrollax-parent="true">
+				<div class="col-md-7 gnill-animate">
+                    <div class="subheading">Gnillevart</div>
+					<span class="introtext">Cùng khám phá những địa điểm yêu thích của bạn với chúng tôi</span>
+					<p class="caps">Du lịch đến bất kỳ ngóc ngách của Việt Nam</p>
+				</div>
+			</div>
+		</div>
+    </div>
+	<!--TOP END-->
+
+    <div class="modal fade position-fixed" id="modalLoginForm">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header text-center">
+                    <h4 class="modal-title w-100 font-weight-bold">Đăng nhập</h4>
+                    <button type="button" class="close" data-dismiss="modal">
+                        <span aria-hidden="true"><i class="fa fa-times" aria-hidden="true"></i></span>
+                    </button>
+                </div>
+
+                <div class="modal-body mx-3">
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Email hoặc Tên Đăng Nhập</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Example@email.com">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="exampleInputPassword1">Mật khẩu</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Mật khẩu">
+                    </div>
+                    <div class="row mb-4">
+                        <div class="col d-flex justify-content-center">
+                            <div class="form-check">
+                                <input type="checkbox" class="form-check-input" id="exampleCheck1" checked>
+                                <label class="form-check-label" for="exampleCheck1">Ghi nhớ đăng nhập</label>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <a href="#!">Quên mật khẩu?</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer justify-content-center">
+                    <button type="submit" class="btn btn-outline-dark">Đăng nhập</button>
+                </div>
+                <div class="text-center">
+                    <p>Chưa có tài khoản? <a class="nav-link" href="#" data-toggle="modal" 
+                        data-target="#modalRegisterForm" data-dismiss="modal">Đăng ký</a></p>
+                    <button type="button" class="btn btn-link btn-floating mx-1">
+                      <i class="fa-brands fa-facebook-f"></i>
+                    </button>
+                
+                    <button type="button" class="btn btn-link btn-floating mx-1">
+                      <i class="fa-brands fa-google"></i>
+                    </button>
+                
+                    <button type="button" class="btn btn-link btn-floating mx-1">
+                      <i class="fa-brands fa-twitter"></i>
+                    </button>
+                
+                    <button type="button" class="btn btn-link btn-floating mx-1">
+                      <i class="fa-brands fa-github" title="github"></i>
+                    </button>
+                  </div>
+            </div>
+        </div>
+    </div>
+	<!--LOGIN FORM END-->
+
+    <div class="modal fade position-fixed" id="modalRegisterForm">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header text-center">
+                    <h4 class="modal-title w-100 font-weight-bold">Đăng Ký</h4>
+                    <button type="button" class="close" data-dismiss="modal">
+                        <span aria-hidden="true"><i class="fa fa-times" aria-hidden="true"></i></span>
+                    </button>
+                </div>
+
+                <div class="modal-body mx-3">
+                    <div class="form-group">
+                        <label for="InputName">Tên Đăng Nhập</label>
+                        <input type="email" class="form-control" id="InputName" 
+                        aria-describedby="emailHelp" placeholder="Nhập tên đăng nhập">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="InputEmail1">Địa chỉ Email</label>
+                        <input type="email" class="form-control" id="InputEmail1" 
+                        aria-describedby="emailHelp" placeholder="Example@email.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="InputPassword1">Mật khẩu</label>
+                        <input type="password" class="form-control" id="InputPassword1" placeholder="Mật khẩu">
+                    </div>
+                    
+                </div>
+                <div class="modal-footer justify-content-center">
+                    <button type="submit" class="btn btn-outline-dark">Đăng ký</button>
+                </div>
+                <div class="text-center">
+                    <p>Đã có tài khoản? <a class="nav-link" href="#" data-toggle="modal" 
+                        data-target="#modalLoginForm" data-dismiss="modal">Đăng nhập</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+	<!--REGIS FORM END-->
+
+    <section class="gnill-section gnill-no-pb gnill-no-pt">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="gnill-search d-flex justify-content-center">
+                        <div class="row">
+                            <div class="col-md-12 nav-link-wrap">
+                                <div class="nav nav-pills text-center float-left" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                                    <a href="#v-pills-1" class="nav-link active mr-md-1" id="v-pills-1-tab" data-toggle="pill" role="tab" aria-controls="v-pills-1" aria-selected="true">Tìm kiếm tour</a>
+                                    <a href="#v-pills-2" class="nav-link" id="v-pills-2-tab" data-toggle="pill" role="tab" aria-controls="v-pills-2" aria-selected="false">Khách sạn</a>
+                                </div>
+                            </div>
+
+                            <div class="col-md-12 tab-wrap">
+                                <div class="tab-content" id="v-pills-tabContent">
+                                    <div class="tab-pane fade show active" id="v-pills-1" role="tabpanel" aria-labelledby="v-pills-nextgen-tab">
+										<form action="#" class="search-property-1">
+											<div class="row no-gutters">
+												<div class="col-md d-flex">
+													<div class="form-group p-4 border-0">
+														<label for="#">Điểm đến</label>
+														<div class="form-field">
+															<div class="icon"><span class="fa fa-search"></span></div>
+															<input type="text" class="form-control" placeholder="Tìm kiếm địa điểm">
+														</div>
+													</div>
+												</div>
+												<div class="col-md d-flex">
+													<div class="form-group p-4">
+														<label for="#">Ngày đến</label>
+														<div class="form-field">
+															<div class="icon"><span class="fa fa-calendar"></span></div>
+															<input type="text" class="form-control checkin_date" placeholder="Ngày đến">
+														</div>
+													</div>
+												</div>
+												<div class="col-md d-flex">
+													<div class="form-group p-4">
+														<label for="#">Ngày đi</label>
+														<div class="form-field">
+															<div class="icon"><span class="fa fa-calendar"></span></div>
+															<input type="text" class="form-control checkout_date" placeholder="Ngày đi">
+														</div>
+													</div>
+												</div>
+												<div class="col-md d-flex">
+													<div class="form-group p-4">
+														<label for="#">Giá</label>
+														<div class="form-field">
+															<div class="select-wrap">
+																<div class="icon"><span class="fa fa-chevron-down"></span></div>
+																<select name="" id="" class="form-control">
+																	<option value="">1,000,000</option>
+																	<option value="">5,000,000</option>
+																	<option value="">10,000,000</option>
+																	<option value="">30,000,000</option>
+																	<option value="">50,000,000</option>
+																</select>
+															</div>
+														</div>
+													</div>
+												</div>
+												<div class="col-md d-flex">
+													<div class="form-group d-flex w-100 h-100 border-0">
+														<div class="form-field w-100 align-items-center d-flex">
+															<input type="submit" value="Tìm kiếm" class="align-self-stretch form-control btn btn-primary">
+														</div>
+													</div>
+												</div>
+											</div>
+										</form>
+									</div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+	<!--Search bar END-->
+
+	<section class="gnill-section services-section">
+		<div class="container">
+			<div class="row d-flex">
+				<div class="col-md-6 order-md-last heading-section pl-md-5 gnill-animate d-flex align-items-center fadeInUp gnill-animated">
+					<div class="w-100">
+						<span class="subheading">Chào mừng tới Gnillevart</span>
+						<h2 class="mb-4">Đến lúc bắt đầu chuyến phiêu lưu của bạn</h2>
+						<p>Các con sông nhỏ chảy qua vị trí của chúng và cung cấp cho nó các chất dinh dưỡng cần thiết. Đó là một đất nước hoang sơ, nơi bạn và thiên nhiên hòa làm một.</p>
+						<p>Xa xa, phía sau là những ngọn núi cao thẳng đứng. Tách khỏi xã hội nhộn nhịp, cư dân nơi đây sống trong những ngôi làng ẩn mình sau những ngọn núi cao.</p>
+						<p>Vẻ đẹp hoang sơ và bình dị là nét đặc trưng của vùng đất này.</p>
+						<p><a href="#" class="btn btn-primary py-3 px-4 gnill-shadow">Tìm kiếm đích đến</a></p>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="row">
+						<div class="col-md-12 col-lg-6 d-flex align-self-stretch gnill-animate fadeInUp gnill-animated">
+							<div class="services services-1 color-1 d-block img gnill-shadow" style="background-image: url(assets/images/Sea.jpg);">
+								<div class="icon d-flex align-items-center justify-content-center gnill-icon-shadow"><span class="fa-solid fa-water"></span></div>
+								<div class="media-body">
+									<h3 class="heading mb-3">Du lịch biển</h3>
+									<p>Du lịch biển là loại hình du lịch được chú trọng đầu tư tại Việt Nam nhờ lợi thế từ biển. Việt Nam đứng thứ 27 trong 156 quốc gia có biển trên thế giới</p>
+								</div>
+							</div>      
+						</div>
+						<div class="col-md-12 col-lg-6 d-flex align-self-stretch gnill-animate fadeInUp gnill-animated">
+							<div class="services services-1 color-2 d-block img gnill-shadow" style="background-image: url(assets/images/moutain.jpg);">
+								<div class="icon d-flex align-items-center justify-content-center gnill-icon-shadow"><span class="fa-solid fa-tree"></span></div>
+								<div class="media-body">
+									<h3 class="heading mb-3">Du lịch rừng núi</h3>
+									<p>Du lịch rừng núi là một trải nghiệm thú vị cho những ai ưa mạo hiểm và khám phá. Hòa mình vào thiên nhiên, ngắm nhìn thế giới từ trên cao.</p>
+								</div>
+							</div>    
+						</div>
+						<div class="col-md-12 col-lg-12 d-flex align-self-center gnill-animate fadeInUp gnill-animated">
+							<div class="services services-1 color-3 d-block img gnill-shadow" style="background-image: url(assets/images/Pagoda1.jpg);">
+								<div class="icon d-flex align-items-center justify-content-center gnill-icon-shadow"><span class="fa-solid fa-gopuram"></span></div>
+								<div class="media-body">
+									<h3 class="heading mb-3">Du lịch tâm linh</h3>
+									<p>Du lịch tâm linh sẽ đưa bạn trở về với những giá trị cốt lõi và lịch sử của dân tộc Việt Nam thông qua các đền thờ anh hùng, vua chúa, các vị thần.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--Service END-->
+
+	<section class="gnill-section img gnill-select-destination" style="background-image: url(assets/images/BG_Select.jpg);">
+		<div class="container">
+			<div class="row justify-content-center pb-4">
+				<div class="col-md-12 heading-section text-center gnill-animate">
+					<span class="subheading">Địa Điểm Du Lịch Nổi Tiếng</span>
+					<h2 class="mb-4">Hãy chọn điểm đến của bạn</h2>
+				</div>
+			</div>
+		</div>
+		<div class="container container-2">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="carousel-destination owl-carousel gnill-animate">
+						<div class="item gnill-shadow">
+							<div class="project-destination">
+								<a href="phoco.html" class="img" style="background-image: url(assets/images/HaNoi.jpg);">
+									<div class="text">
+										<h3 class="gnill-icon-shadow">Hà Nội</h3>
+										<span class="gnill-icon-shadow">Phố Cổ Hà Nội</span>
+									</div>
+								</a>
+							</div>
+						</div>
+						<div class="item gnill-shadow">
+							<div class="project-destination">
+								<a href="nhatho.html" class="img" style="background-image: url(assets/images/HCM.jpg);">
+									<div class="text">
+										<h3 class="gnill-icon-shadow">Sài Gòn</h3>
+										<span class="gnill-icon-shadow">Nhà Thờ Đức Bà</span>
+									</div>
+								</a>
+							</div>
+						</div>
+						<div class="item gnill-shadow">
+							<div class="project-destination">
+								<a href="phongnha.html" class="img" style="background-image: url(assets/images/PhongNha.jpg);">
+									<div class="text">
+										<h3 class="gnill-icon-shadow">Quảng Bình</h3>
+										<span class="gnill-icon-shadow">Phong Nha - Kẻ Bàng</span>
+									</div>
+								</a>
+							</div>
+						</div>
+						<div class="item gnill-shadow">
+							<div class="project-destination">
+								<a href="nhatrang.html" class="img" style="background-image: url(assets/images/NhaTrang.jpg);">
+									<div class="text">
+										<h3 class="gnill-icon-shadow">Nha Trang</h3>
+										<span class="gnill-icon-shadow">Bãi Biển Nha Trang</span>
+									</div>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--Select Destination END-->
+
+
+	<section class="gnill-section testimony-section bg-bottom" style="background-image: url(assets/images/Feedback_BG.jpg);">
+		<div class="overlay"></div>
+		<div class="container">
+			<div class="row justify-content-center pb-4">
+				<div class="col-md-7 text-center heading-section heading-section-white gnill-animate">
+					<span class="subheading">Xác nhận</span>
+					<h2 class="mb-4">Đánh giá của du khách</h2>
+				</div>
+			</div>
+			<div class="row gnill-animate">
+				<div class="col-md-12">
+					<div class="carousel-testimony owl-carousel">
+						<div class="item">
+							<div class="testimony-wrap py-4">
+								<div class="text">
+									<p class="star">
+										<span class="fa fa-star"></span>
+										<span class="fa fa-star"></span>
+										<span class="fa fa-star"></span>
+										<span class="fa fa-star"></span>
+										<span class="fa fa-star"></span>
+									</p>
+									<p class="mb-4">Tôi thích những Tour du lịch mà trang web đưa ra, nó thực sự ý nghĩa và tuyệt vời. Tôi yêu Việt Nam</p>
+									<div class="d-flex align-items-center">
+										<div class="user-img" style="background-image: url(assets/images/User1.jpg)"></div>
+										<div class="pl-3">
+											<p class="name">Harry Maguire</p>
+											<span class="position">Chú hề sân cỏ</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="item">
+							<div class="testimony-wrap py-4">
+								<div class="text">
+									<p class="star">
+										<span class="fa fa-star"></span>
+										<span class="fa fa-star"></span>
+										<span class="fa fa-star"></span>
+										<span class="fa fa-star"></span>
+										<span class="fa fa-star"></span>
+									</p>
+									<p class="mb-4">Mỗi khi đến du lịch Việt Nam, trang web luôn là lựa chọn hàng đầu của tôi. I love Vietnam.</p>
+									<div class="d-flex align-items-center">
+										<div class="user-img" style="background-image: url(assets/images/User2.jpg)"></div>
+										<div class="pl-3">
+											<p class="name">Cristiano Ronaldo</p>
+											<span class="position">Cầu thủ bóng đá</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="item">
+							<div class="testimony-wrap py-4">
+								<div class="text">
+									<p class="star">
+										<span class="fa fa-star"></span>
+										<span class="fa fa-star"></span>
+										<span class="fa fa-star"></span>
+										<span class="fa fa-star"></span>
+										<span class="fa fa-star"></span>
+									</p>
+									<p class="mb-4">Trang web thật sự đem đến cho tôi những lựa chọn tốt nhất mỗi lần tôi đến lưu diễn tại Việt Nam.</p>
+									<div class="d-flex align-items-center">
+										<div class="user-img" style="background-image: url(assets/images/User3.jpg)"></div>
+										<div class="pl-3">
+											<p class="name">Charlie Puth</p>
+											<span class="position">Ca sĩ/ Nhạc sĩ nổi tiếng</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+
+
+   <!-- Footer -->
+	<footer class="gnill-footer bg-bottom gnill-no-pt bg-dark" style="background-image: url(assets/images/footerBG.jpg);">
+		<div class="container">
+	  		<div class="row mb-5">
+				<div class="col-md pt-5">
+					<div class="gnill-footer-widget pt-md-5 mb-4">
+						<h2 class="gnill-heading-2">Giới thiệu</h2>
+						<p>
+							Phương châm của chúng tôi là mang đến cho khách hàng những dịch vụ du lịch tốt nhất, rẻ nhất và ý nghĩa nhất. Trả lời thắc mắc và câu hỏi của các bạn là nghĩa vụ của chúng tôi. 
+						</p>
+						<ul class="gnill-footer-social list-unstyled float-md-left float-lft">
+							<li class="gnill-animate"><a href="#"><span class="fa-brands fa-twitter"></span></a></li>
+							<li class="gnill-animate"><a href="#"><span class="fa-brands fa-facebook"></span></a></li>
+							<li class="gnill-animate"><a href="#"><span class="fa-brands fa-instagram"></span></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-md pt-5 border-left">
+		  			<div class="gnill-footer-widget pt-md-5 mb-4 ml-md-5">
+						<h2 class="gnill-heading-2">Thông tin</h2>
+						<ul class="list-unstyled">
+			  				<li><a href="dulich.html" class="py-2 d-block">Điểm du lịch</a></li>
+							<li><a href="car-rent-page-1.html" class="py-2 d-block">Xe du lịch</a></li>
+							<li><a href="lienhe.html" class="py-2 d-block">Liên hệ với chúng tôi</a></li>
+							<li><a href="thongtin.html" class="py-2 d-block">Thông tin về chúng tôi</a></li>
+						</ul>
+		  			</div>
+				</div>
+				<div class="col-md pt-5 border-left">
+					<div class="gnill-footer-widget pt-md-5 mb-4">
+						<h2 class="gnill-heading-2">Bạn có thắc mắc?</h2>
+						<div class="block-23 mb-3">
+							<ul>
+								<li><span class="icon fa fa-map-marker"></span><span class="text">127 Đường Lê Hồng Phong, Trường Thi, Thành phố Vinh, Nghệ An</span></li>
+								<li><a href="#"><span class="icon fa fa-phone"></span><span class="text">+84 904 786 893</span></a></li>
+								<li><a href="#"><span class="icon fa fa-paper-plane"></span><span class="text">manhphuc2003@gmail.com</span></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12 text-center">
+					<p>
+						&copy;<script>document.write(new Date().getFullYear());</script> GNILLEVART
+					</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery-migrate-3.0.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/jquery.stellar.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/jquery.animateNumber.min.js"></script>
+    <script src="js/bootstrap-datepicker.js"></script>
+    <script src="js/scrollax.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+    <script src="js/google-map.js"></script>
+	<script src="js/gnillevart.js"></script>
+    <script src="js/main.js"></script>
+	
+</body>
+</html>

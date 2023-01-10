@@ -1,0 +1,244 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+p {
+    margin : 4px 0 !important;
+}
+.container {
+    position: relative;
+}
+.star {
+    position: absolute;
+    top: 10px;
+    right: 5%;
+    width: 115px;
+    height: 150px;
+    padding: 0;
+    font-size: 100px;
+    color: rgb(255, 255, 0);
+    animation: rotate ease 5s infinite ;
+}
+.redstar {
+    color: red;
+}
+@keyframes rotate {
+    100% {transform: rotate(360deg);}
+  }
+.CV-box {
+    /* background-image:url('https://tintuc.dienthoaigiakho.vn/wp-content/uploads/2021/12/136.jpeg'); */
+    background-color: rgb(225, 244, 244);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 2000px;
+    opacity: 0.7;
+}
+.left-cv-box {
+    color:rgb(247, 245, 245);
+    background-color: rgba(56, 61, 65);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    height: inherit;
+    position: relative;
+
+}
+.right-cv-box {
+    padding-left : 30px !important;
+    padding-right: 60px !important;
+    padding-top: 50px;
+    color: rgb(0, 0, 0);
+}
+.cv-avt-box1 {
+    width: 60%;
+    border-radius: 50%;   
+    box-shadow: 0 0 100px rgb(217, 255, 0);
+}
+.cv-avt-box2 {
+    width: 100%;
+    border-radius: 50%;   
+    box-shadow: 0 0 100px rgb(119, 255, 0);
+}
+.cv-img-noshadow {
+    box-shadow: none !important;
+}
+
+.cv-avt {
+    width: 100%;
+    display: flex;
+    margin-left: 50px;
+    /* justify-content: center;     */
+    margin-top: 70px;
+}
+.cv-image {
+    
+    width: 100%;
+    border-radius: 50%;
+    box-shadow: 0 0 50px rgb(236, 14, 14);
+}
+.cv-name {
+    font-size: 25px;
+}
+.box-1 {
+    position:absolute;
+    border-width:200px 40px ;
+    border-style: solid;
+    border-color: transparent rgb(225, 244, 244) rgb(225, 244, 244) transparent;
+    top: 0;
+    right: 0;
+}
+.box-2 {
+    position:absolute;
+    border-width:250px 40px ;
+    border-style: solid;
+    border-color:  rgb(225, 244, 244) rgb(225, 244, 244) transparent transparent;
+    top: 400px;
+    right: 0;
+}
+.box-3 {
+    position: absolute;
+    background-color: orange;
+    width: 300px;
+    height: 60px;
+    top: 370px;
+    left: 0;
+    text-align: center;
+    line-height: 60px;
+}
+.box-4 {
+    position:absolute;
+    border-width:20px 150px  ;
+    border-style: solid;
+    border-color: transparent transparent orange orange ;
+    top: 330px;
+    left: 0;
+}
+.box-5 {
+    position:absolute;
+    border-width:20px 150px  ;
+    border-style: solid;
+    border-color:  orange transparent transparent orange  ;
+    top: 430px;
+    left: 0;
+}
+.content {
+    cursor:default;
+    margin : 40px 0;
+}
+.content-header {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 15px 0;
+    color: red;
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+.underline {
+    position:absolute;
+    width: 70%;
+    left: 65px;
+    border-radius: 4px;
+    bottom: 10px;
+    height: 4px;
+    background-color: rgb(171, 235, 11);
+}
+.icon {
+    width: 60px;
+    height: 60px;
+    line-height: 50px;
+    text-align: center;
+    border: 4px solid rgb(171, 235, 11);
+    border-radius: 50%;
+    font-size: 30px;
+    margin-right: 4px;
+    background-color: rgb(187, 242, 242);
+}
+.content-body {
+    margin-left: 16px;
+    font-size: 16px;
+}
+.content-body h3 {
+    font-size: 20px;
+}
+.contaxt {
+    margin-top: 250px;
+}
+.contaxt-item {
+    display: flex;
+    align-items: center;
+    margin: 8px 4px; 
+    font-size: 15px;
+}
+.contaxt-icon {
+    margin: auto 16px;
+    font-size: 20px;
+}
+
+.contaxt-infor-header {
+    font-weight: 600;
+}
+.skill {
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    width: 100%;
+    margin: 8px 0;
+}
+.skill-box {
+    width: 80%;
+}
+.percent {
+    width: 70%;
+}
+
+.social-box {
+    width: 80%;
+    display: flex;
+    justify-content : space-around;
+    font-size: 40px;
+
+}
+.social-icon {
+    padding: 0 10px ;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.facebook-icon {
+    color: blue;
+    border: 4px solid rgb(52, 4, 243);
+}
+.youtube-icon {
+    color: rgb(255, 0, 55);
+    border: 4px solid rgb(243, 4, 32);
+}
+.tiktok-icon {
+    color: rgb(10, 10, 11);
+    border: 4px solid rgb(12, 12, 12);
+}
+.twitter-icon {
+    color: rgb(128, 171, 235);
+    border: 4px solid rgb(170, 158, 235);
+}
+.progress-bar {
+    animation: animate-positive 2s;
+    font-size: 12px;
+}
+@-webkit-keyframes animate-positive {
+    0% {
+        width: 0;
+    }
+}
+
+@keyframes animate-positive {
+    0% {
+        width: 0;
+    }
+}
+/* .contaxt-infor-content {
+    font-size: 15px;    
+} */
+
+

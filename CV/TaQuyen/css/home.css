@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding : 0;
+    box-sizing: border-box;
+    cursor: default;
+}
+a {
+    text-decoration: none;
+}
+ul {
+    padding-left : 0;
+    list-style: none;
+}
+
+
+html {
+    /* font-size: 62.5%; */
+    line-height: 1.6 rem;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    box-sizing: border-box;
+}
+.logo {
+    font-family: 'Ewert', cursive;
+    width: 30%;
+}
+.logo h4 {
+    margin-bottom: 0;
+    color: springgreen;
+    font-size: 30px;
+    text-align: center;
+}
+.header {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    position: relative;
+    z-index: 1;
+    /* background-color: aqua; */
+    padding: 10px;
+    border-radius: 20px;
+    
+    margin: 20px 16px 20px -16px;
+    box-shadow: 0 1px 10px #ccc;
+}
+.menu {
+    display: flex;
+    flex: 3;
+    margin-left: 40px;  
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    align-items: center;
+}
+.menu-item {
+    list-style-type: none;
+}
+.menu a {
+    margin: 10px;
+    cursor: pointer;
+}
+.menu a:hover {
+    color: red;
+}
+.header-content-item {
+    /* text-shadow: 0 0 4px red; */
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Ewert', cursive;
+    color: springgreen;
+}
+.red-color {
+    color: red;
+}
+.yellow-color {
+    color: yellow;
+}
+.member-item {
+    display: flex;
+    text-decoration:none;
+    margin-left: 60px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    position: relative;
+}
+.member-item:hover {
+    text-decoration: none;
+}
+.avatar {
+    width: 160px;
+    height: 160px;
+}
+.avt-image {
+    box-shadow: 0 0 20px rgb(232, 73, 5);
+    cursor: pointer;
+    width: 100%;
+    border-radius: 50%;
+    border: 5px solid rgb(172, 239, 172);
+}
+.list-member {
+    padding: 20px 0;
+}
+.member-info {
+    cursor: pointer;
+    width: 66%;
+    margin-right: 120px;
+    border: 5px solid rgb(172, 239, 172);
+    border-radius: 20px;
+    padding: 20px;
+    height: 250px;
+}
+.member-info-name {
+    font-size: 30px;
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    cursor: pointer;
+    text-align: center;
+}
+.member-info-MSV {
+    font-size: 16px;
+    text-align: center;
+}
+.member-info-desc {
+    font-size: 15px;
+    margin-left: 20px;  
+}
+.member-info-desc p {
+    margin-bottom: 8px;
+}
+.space {
+    width: 89px;
+    height: 35px;
+    border-top: 4px solid rgb(172, 239, 172);
+    border-bottom: 4px solid rgb(172, 239, 172);
+    position: absolute;
+    background-color: white;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 14.7%;
+}
+.connect-member {
+    box-shadow: 0 0 20px rgb(232, 73, 5);
+    position: absolute;
+    width: 40px;
+    height: 1020px;
+    top: 76px;
+    left: 325px;
+    z-index: 0;
+    border-left: 4px solid rgb(172, 239, 172);
+    border-right: 4px solid rgb(172, 239, 172);
+}

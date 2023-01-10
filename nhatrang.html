@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kinh Nghiệm du lịch Bãi Biển Nha Trang</title>
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Arizonia&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/afeld/bootstrap-toc/v1.0.1/dist/bootstrap-toc.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/owl.theme.default.min.css">
+	<link rel="stylesheet" href="css/magnific-popup.css">
+	<link rel="stylesheet" href="css/bootstrap-datepicker.css">
+	<link rel="stylesheet" href="css/jquery.timepicker.css">
+	<link rel="stylesheet" href="css/flaticon.css">
+	<link rel="stylesheet" href="css/bootstrap.style.css">
+	<link rel="stylesheet" href="css/gnillevart.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+	<nav class="navbar navbar-expand-lg navbar-dark gnill_navbar bg-dark gnill-navbar-light" id="gnill-navbar">
+		<div class="container">
+			<a class="navbar-brand" href="index.html">Gnillevart</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#gnill-nav" aria-controls="gnill-nav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="oi oi-menu"></span> Menu
+			</button>
+
+			<div class="collapse navbar-collapse" id="gnill-nav">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item"><a href="index.html" class="nav-link"><span class="fa-solid fa-house"></span> Trang chủ</a></li>
+					<li class="nav-item"><a href="thongtin.html" class="nav-link"><span class="fa-solid fa-people-group"></span> Thông tin</a></li>
+					<li class="nav-item active"><a href="dulich.html" class="nav-link"><span class="fa-solid fa-mountain"></span> Du lịch</a></li>
+					<li class="nav-item"><a href="lienhe.html" class="nav-link"><span class="fa-solid fa-message"></span> Liên hệ</a></li>
+					<li class="nav-item"><a href="#" class="nav-link" data-toggle="modal"
+						data-target="#modalLoginForm"><span class="fa-solid fa-user"></span> Tài khoản</a></div></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<!--NAV END-->
+
+    <div class="gnill-top-bg js-fullheight" style="background-image: url(assets/images/NhaTrang.jpg); height: 650px;">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="row no-gutters slider-text js-fullheight align-items-end justify-content-center">
+                <div class="col-md-9 gnill-animate pb-5 text-center">
+                 <p class="breadcrumbs">
+                    <span class="mr-2">
+                        <a href="index.html">
+                            Trang chủ <i class="fa fa-chevron-right"></i>
+                        </a>
+                    </span> 
+                    <span class="mr-2">
+                        <a href="index.html">
+                            Hướng dẫn du lịch <i class="fa fa-chevron-right"></i>
+                        </a>
+                    </span> 
+                    <span>
+                        Bãi Biển Nha Trang <i class="fa fa-chevron-right"></i>
+                    </span>
+                </p>
+                 <h1 class="mb-0 bread">Bãi Biển Nha Trang</h1>
+               </div>
+             </div>
+		</div>
+    </div>
+	<!--TOP END-->
+
+    <div class="modal fade position-fixed" id="modalLoginForm">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header text-center">
+                    <h4 class="modal-title w-100 font-weight-bold">Đăng nhập</h4>
+                    <button type="button" class="close" data-dismiss="modal">
+                        <span aria-hidden="true"><i class="fa fa-times" aria-hidden="true"></i></span>
+                    </button>
+                </div>
+
+                <div class="modal-body mx-3">
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Email hoặc Tên Đăng Nhập</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Example@email.com">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="exampleInputPassword1">Mật khẩu</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Mật khẩu">
+                    </div>
+                    <div class="row mb-4">
+                        <div class="col d-flex justify-content-center">
+                            <div class="form-check">
+                                <input type="checkbox" class="form-check-input" id="exampleCheck1" checked>
+                                <label class="form-check-label" for="exampleCheck1">Ghi nhớ đăng nhập</label>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <a href="#!">Quên mật khẩu?</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer justify-content-center">
+                    <button type="submit" class="btn btn-outline-dark">Đăng nhập</button>
+                </div>
+                <div class="text-center">
+                    <p>Chưa có tài khoản? <a class="nav-link" href="#" data-toggle="modal" 
+                        data-target="#modalRegisterForm" data-dismiss="modal">Đăng ký</a></p>
+                    <button type="button" class="btn btn-link btn-floating mx-1">
+                      <i class="fa-brands fa-facebook-f"></i>
+                    </button>
+                
+                    <button type="button" class="btn btn-link btn-floating mx-1">
+                      <i class="fa-brands fa-google"></i>
+                    </button>
+                
+                    <button type="button" class="btn btn-link btn-floating mx-1">
+                      <i class="fa-brands fa-twitter"></i>
+                    </button>
+                
+                    <button type="button" class="btn btn-link btn-floating mx-1">
+                      <i class="fa-brands fa-github" title="github"></i>
+                    </button>
+                  </div>
+            </div>
+        </div>
+    </div>
+	<!--LOGIN FORM END-->
+
+    <div class="modal fade position-fixed" id="modalRegisterForm">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header text-center">
+                    <h4 class="modal-title w-100 font-weight-bold">Đăng Ký</h4>
+                    <button type="button" class="close" data-dismiss="modal">
+                        <span aria-hidden="true"><i class="fa fa-times" aria-hidden="true"></i></span>
+                    </button>
+                </div>
+
+                <div class="modal-body mx-3">
+                    <div class="form-group">
+                        <label for="InputName">Tên Đăng Nhập</label>
+                        <input type="email" class="form-control" id="InputName" 
+                        aria-describedby="emailHelp" placeholder="Nhập tên đăng nhập">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="InputEmail1">Địa chỉ Email</label>
+                        <input type="email" class="form-control" id="InputEmail1" 
+                        aria-describedby="emailHelp" placeholder="Example@email.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="InputPassword1">Mật khẩu</label>
+                        <input type="password" class="form-control" id="InputPassword1" placeholder="Mật khẩu">
+                    </div>
+                    
+                </div>
+                <div class="modal-footer justify-content-center">
+                    <button type="submit" class="btn btn-outline-dark">Đăng ký</button>
+                </div>
+                <div class="text-center">
+                    <p>Đã có tài khoản? <a class="nav-link" href="#" data-toggle="modal" 
+                        data-target="#modalLoginForm" data-dismiss="modal">Đăng nhập</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+	<!--REGIS FORM END-->
+
+    <section class="gnill-blog">
+        <div class="gnill-blog-content">
+            <div>
+                <h1 class="mb-0 mt-2 bread text-center">KINH NGHIỆM DU LỊCH NHA TRANG</h1>
+            </div>
+            <hr>
+            <h3 class="font-weight-bold">
+                Ngoài vui chơi trên biển, du khách có thể tham quan đảo khỉ, tháp bà Ponagar và thưởng thức món ngon của miền biển.
+            </h3>
+            <p>
+                Nha Trang, thành phố biển nằm tại vị trí trung tâm tỉnh Khánh Hòa, từ lâu đã là một trong những điểm du lịch hút khách nhất Việt Nam. Được thiên nhiên ban tặng những bãi biển, vùng vịnh đẹp cùng nhiều đảo lớn nhỏ, thành phố còn sở hữu nhiều danh lam thắng cảnh, điểm tham quan, vui chơi và cơ sở nghỉ dưỡng.
+            </p>
+            <div>
+                <h3 class="mt-1 text-info">
+                    1. Nha Trang mùa nào đẹp?
+                </h3>
+                <p>
+                    Khí hậu ở Nha Trang tương đối ôn hòa, với mùa khô kéo dài từ tháng 1 đến tháng 8, không có mùa đông lạnh. Do đó du khách có thể tới đây du lịch quanh năm. Từ tháng 4 đến hết tháng 6, trời nắng và nóng nhiều hơn, nhưng không quá oi bức.
+                </p>
+                <p>
+                    Tháng 9 trời bắt đầu có mưa rải rác, nên không ảnh hưởng quá nhiều đến hoạt động vui chơi của du khách. Từ tháng 10 đến tháng 12, trời mưa nhiều hơn, có thể kèm theo không khí lạnh. Đây không còn là mùa cao điểm của du lịch nội địa tại Nha Trang, nên phù hợp với những du khách muốn nghỉ dưỡng yên tĩnh.
+                </p>
+            </div>
+
+            <div>
+                <h3 class="mt-1 text-info">
+                    2. Di chuyển
+                </h3>
+                <p>
+                    Hiện nay, các hãng hàng không Việt Nam như Vietnam Airlines, Vietjet Air, Jetstar, đều khai thác chuyến bay từ Hà Nội, TP HCM đến Nha Trang, qua sân bay Cam Ranh. Bamboo Airways có chuyến bay từ Hà Nội. Giá vé dao động từ 1.400.000 đồng đến 2.500.000 đồng.
+                </p>
+                <p>
+                    Sân bay Cam Ranh cách trung tâm thành phố khoảng 35 km. Ở đây có các hãng xe taxi đón khách với giá khoảng 300.000 đồng một chuyến. Ngoài ra, du khách có thể sử dụng xe bus, tuyến số 18, giá 50.000 đồng một lượt.
+                </p>
+                <div class="row mx-1 text-center">
+                    <div class="col-lg-12">
+                        <img class="w-100 d-inline-block" src="assets/images/NhaTrang/nhatrang-1.jpg" alt="">
+                        <p class="py-1 w-100 bg-light d-inline-block font-italic">Thành Phố Nha Trang khi nhìn từ trên cao</p>
+                    </div>
+                </div>
+                <p>
+                    Thành phố Nha Trang không quá lớn, trục đường chính chạy dọc theo bãi biển, vì vậy du khách nên thuê xe máy để tham quan, đặc biệt khi muốn thưởng thức ẩm thực của người địa phương. Xe máy có giá thuê khoảng 100.000 - 150.000 đồng. Thông thường ở các khách sạn sẽ cung cấp dịch vụ này.
+                </p>
+            </div>
+
+            <div>
+                <h3 class="mt-1 text-info">
+                    3. Khách sạn, Resort
+                </h3>
+                <p>
+                    Trần Phú là trục đường chạy dọc bãi biển, ở đây có nhiều khách sạn cho du khách lựa chọn. Một số khách sạn gợi ý là Mường Thanh, Novotel, InterContinental Nha Trang, Sheraton Nha Trang, Lodge... Với ưu điểm gần biển, gần trung tâm, các khách sạn trên trục đường này có giá từ 900.000 đồng một đêm. Cao cấp hơn là 2 - 3 triệu đồng một đêm.
+                </p>
+                <p>
+                    Để tiết kiệm chi phí, du khách có thể tìm khách sạn, homestay sau Trần Phú. Cụ thể là đường Nguyễn Thị Minh Khai, Hùng Vương hay Nguyễn Thiện Thuật.
+                </p>
+                <p>
+                    Với du khách yêu thích du lịch nghỉ dưỡng, với không gian riêng tư, không gần trung tâm thì Amiana resort trên đường Phạm Văn Đồng; Vinpearl Resort, Hòn Tre hay MerPerle là sự lựa chọn phù hợp.
+                </p>
+
+                <div id="carouselExampleControls" class="carousel slide px-3 text-center" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img class="d-block w-100" src="assets/images/NhaTrang/nhatrang-2.jpg" alt="First slide">
+                            <p class="py-1 w-100 bg-light d-inline-block font-italic">Resort Amiana</p>
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="assets/images/NhaTrang/nhatrang-3.jpg" alt="Second slide">
+                            <p class="py-1 w-100 bg-light d-inline-block font-italic">Hồ bơi của Resort Amiana</p>
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="assets/images/NhaTrang/nhatrang-4.jpg" alt="Third slide">
+                            <p class="py-1 w-100 bg-light d-inline-block font-italic">Phòng ở của Resort Amiana</p>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Trước</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Tiếp</span>
+                    </a>
+                    
+                </div>
+            </div>
+
+            <div>
+                <h3 class="mt-1 text-info">
+                    4. Ăn gì
+                </h3>
+                <p>
+                    Ngoài hải sản, thành phố còn rất nhiều đặc sản, món ăn hấp dẫn như bánh xèo mực, nem nướng, bún chả cá, bánh căn, bánh ướt... Dưới đây là những địa chỉ và tụ điểm ăn uống tại Nha Trang.
+                </p>
+                <ul>
+                    <li><p>Bò nướng Lạc Cảnh - 44 Nguyễn Bỉnh Khiêm</p></li>
+                    <li><p>Quán dê Thanh Đa - 66 Nguyễn Thị Minh Khai</p></li>
+                    <li><p>Lẩu đuôi bò Anh Sang - 126 Nguyễn Khuyến</p></li>
+                    <li><p>Bò né, bò la quán Hoa - 9 Cô Bắc (chỉ bán sáng)</p></li>
+                    <li><p>Bánh mì Ba Lẹ - số 2 đường 2/4</p></li>
+                    <li><p>Bánh đập Dì Loan - 16A Hồng Lĩnh</p></li>
+                    <li><p>Nem nướng Hiệp - 96 Lương Định Của</p></li>
+                    <li><p>Bánh xèo tôm mực chảo nhỏ - 3 Trần Kim Hùng</p></li>
+                    <li><p>Bánh xèo chảo to - Chợ Đầm</p></li>
+                    <li><p>Bún cá dầm - 24 Nguyễn Công Trứ</p></li>
+                    <li><p>Ốc Lễ - 76 Võ Trứ</p></li>
+                    <li><p>Hẻm ốc 89/5 Vân Đồn</p></li>
+                    <li><p>Hải sản Sơn Cảng quán - 142 Phạm Văn Đồng</p></li>
+                </ul>
+                
+                <div class="row px-2">
+                    <div class="col-lg-4 col-md-4 col-sm-12 mb-4">
+                        <img src="assets/images/NhaTrang/food-1.jpg" class="w-100 h-100 shadow-1-strong rounded mb-4" alt="" />
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-12 mb-4">
+                        <img src="assets/images/NhaTrang/food-2.jpg" class="w-100 h-100 shadow-1-strong rounded mb-4" alt="" />
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-12 mb-4">
+                        <img src="assets/images/NhaTrang/food-3.jpg" class="w-100 h-100 shadow-1-strong rounded mb-4" alt="" />
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-12 mb-4">
+                        <img src="assets/images/NhaTrang/food-4.jpg" class="w-100 h-100 shadow-1-strong rounded mb-4" alt="" />
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-12 mb-4">
+                        <img src="assets/images/NhaTrang/food-5.jpg" class="w-100 h-100 shadow-1-strong rounded mb-4" alt="" />
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-12 mb-4">
+                        <img src="assets/images/NhaTrang/food-6.jpg" class="w-100 h-100 shadow-1-strong rounded mb-4" alt="" />
+                    </div>
+
+                </div>
+
+                <p>
+                    Ngoài ra, nơi đây cũng có rất nhiều quán cà phê, trà chanh, trà sữa, chè được nhiều du khách và người dân địa phương yêu thích.
+                </p>
+                <ul>
+                    <li><p>Chè Bà Nhị - 19 Phan Đình Giót</p></li>
+                    <li><p>Thế giới nước ép Son Juice & More - 102 Hồng Bàng</p></li>
+                    <li><p>Cà phê và bia Nói 1992 - đường 2/4</p></li>
+                    <li><p>Sunday Coffee - 336 Dã Tượng</p></li>
+                    <li><p>Quán cà phê Xưởng 1925 Roastery - 27 đường Cầu Bè</p></li>
+                </ul>
+            </div>
+
+            <div>
+                <h3 class="mt-1 text-info">
+                    5. Chơi ở đâu
+                </h3>
+                <h5 class="font-weight-bold">
+                    Biển đảo
+                </h5>
+                <p>
+                    <i>Bãi Biển Nha Trang</i> chạy dài theo dọc thành phố, chỉ cần đi bộ từ đường Trần Phú là có thể đến biển. Tuy nhiên điểm tập trung đông người tắm nhất là ở khu vực quanh tháp Trầm Hương. Bãi biển của thành phố được nhiều du khách đánh giá là trong, sạch, cát vàng mịn.
+                </p>
+                <div class="row mx-1 text-center">
+                    <div class="col-lg-12">
+                        <img class="w-100 d-inline-block" src="assets/images/NhaTrang/nhatrang-5.jpg" alt="">
+                        <p class="py-1 w-100 bg-light d-inline-block font-italic">Bãi biển Nha Trang</p>
+                    </div>
+                </div>
+                <p>
+                    <i>Đảo trong vịnh Nha Trang</i> mang những vẻ đẹp riêng, với làng chài, bãi tắm đôi hoang sơ, "vương quốc" của loài khỉ hay rạn san hô nhiều màu sắc.
+                </p>
+                <p>
+                    <b>Hòn Miễu</b> được biết đến là một trong những đảo đẹp nhất vùng vịnh, nằm gần đất liền. Ở đây có bãi Tranh trải dài gần 500 m, với một bên là cát trắng mịn, một bên là bãi cạn với nhiều sỏi nhỏ. Nước biển ở đây trong xanh, đặc biệt dốc thoải, thích hợp để bơi lội. Bãi Tranh cũng là tụ điểm của hàng loạt trò chơi, môn thể thao biển như đi mô tô nước, dù bay, phao chuối, flyboard...
+                </p>
+                <p>
+                    Ở đây, du khách đừng quên tham quan thủy cung Trí Nguyên, với thiết kế con tàu khổng lồ. Bên trong là tầng hầm với 4 bể cá. Đây là khu vực tham quan chính, tập trung hàng trăm sinh vật biển như một đại dương thu nhỏ. Ở tầng 2, 3 là nhà hàng và nơi bán đồ lưu niệm.
+                </p>
+                <p>
+                    <b>Hòn Tằm</b> cách đất liền khoảng 7 km về phía đông nam của thành phố. Đây là hòn đảo sở hữu thảm rừng xanh, bãi cát dài sóng êm, đặc biệt thích hợp với những du khách yêu thích du lịch nghỉ dưỡng.
+                </p>
+                <p>
+                    <b>Hòn Chồng</b> ở đường Phạm Văn Đồng, cách trung tâm thành phố khoảng 3 km về hướng Đông Bắc. Nơi đây là một quần thể khối đá lớn với đủ loại hình thù, xếp chồng lên nhau chạy từ bờ cao xuống biển. Địa điểm du lịch này cũng là một trong những nơi đẹp nhất để ngắm nhìn thành phố biển, không khí trong lành, yên tĩnh.
+                </p>
+                <div class="row mx-1 mb-3">
+                    <div class="col-12 px-2">
+                        <img class="w-100 d-inline-block" src="assets/images/NhaTrang/nhatrang-6.jpg" alt="">
+                    </div>
+                </div>
+                <div class="row mx-1 mb-3">
+                    <div class="col-lg-6 col-md-6 col-sm-12 px-2 mb-3">
+                        <img class="w-100 d-inline-block" src="assets/images/NhaTrang/nhatrang-7.jpg" alt="">
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12 px-2 mb-3">
+                        <img class="w-100 d-inline-block" src="assets/images/NhaTrang/nhatrang-8.jpg" alt="">
+                    </div>
+                </div>
+                <p>
+                    <b>Hòn Mun</b> là điểm đến đẹp nhất để lặn, ngắm san hô cách cảng cầu đá 12 km. Với sự giao thoa của 2 dòng hải lưu nóng, đảo có khoảng 2.000 loài san hô cùng nhiều sinh vật biển nhiệt đới. Tham gia tour lặn biển ở độ sâu từ 6 - 8 m, du khách sẽ được chiêm ngưỡng thế giới đại dương muôn màu sắc và chạm tay vào nhiều loài sao, cá biển...
+                </p>
+                <p>
+                    <b>Đảo Yến - Hòn Nội</b>, cách cảng 25 km, nổi tiếng với vẻ đẹp hoang sơ, yên bình. Ở đây có bãi tắm đôi, cùng một bờ cát trắng, mịn với 2 bên là nước biển xanh trong. Du khách có thể nhìn ngắm toàn bộ cảnh biển từ đỉnh núi Du Hạ, với khoảng 200 bậc thang.
+                </p>
+                <p>
+                    <b>Đảo Khỉ - Hòn Lao</b> là điểm tham quan đặc biệt, với khoảng 1.500 con khỉ sinh sống trong rừng. Đi dạo đảo, du khách có thể bắt gặp chúng ở bất cứ đâu. Hầu hết các con khỉ ở đây đều thân thiện với người, tuy nhiên du khách cần lưu ý vì chúng thường lại gần để lấy cắp đồ ăn. Trên đảo cũng có khu vực biểu diễn xiếc với các khung giờ 9h30, 10h30 và 15h15.
+                </p>
+                <div class="row mx-1 mb-3">
+                    <div class="col-lg-6 col-md-6 col-sm-12 px-2 mb-3">
+                        <img class="w-100 d-inline-block" src="assets/images/NhaTrang/nhatrang-9.jpg" alt="">
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12 px-2 mb-3">
+                        <img class="w-100 d-inline-block" src="assets/images/NhaTrang/nhatrang-10.jpg" alt="">
+                    </div>
+                </div>
+                <p>
+                    <b>Đảo Hòn Một</b> thu hút du khách bởi vẻ đẹp thanh bình của làng chài trên biển, với những ngôi nhà ngói phủ rêu xanh và thuyền bè nhấp nhô trên biển. Ở đây, du khách sẽ được tận hưởng không khí biển trong lành và quan sát nhịp sống của ngư dân. Trên đảo cũng có nhiều hoạt động khác như lặn nông ngắm san hô, trò chơi mô tô nước, thúng đáy kính, cano dù kéo...
+                </p>
+                <p>
+                    Du khách đi theo đoàn đông có thể tự thuê cano với giá khoảng 1.300.000 đồng để tham quan các đảo ở đây. Một số hòn đảo có thu phí tham quan như Hòn Mun giá 22.000 đồng, đảo Khỉ bán vé người lớn là 144.000 đồng và trẻ em 72.000 đồng.
+                </p>
+                <p>
+                    Tuy nhiên, để tiết kiệm chi phí và thời gian, du khách nên đặt các tour đảo. Tour tắm biển và các trò chơi ở Hòn Mun - bãi Tranh, hoặc Hòn Tằm giá 450.000 - 600.000 đồng. Tour lặn biển hòn Mun giá 600.000 đồng. Ngoài tham quan đảo, trong các tour thường kết hợp tắm bùn, ăn trưa tại làng chài...
+                </p>
+                <h5 class="font-weight-bold">
+                    Bảo tàng Hải dương học
+                </h5>
+                <p>
+                    Bảo tàng Hải dương học là một phần của Viện Hải dương học Nha Trang, thành lập năm 1923, tọa lạc tại số 1 Cầu Đá. Trong bảo tàng bao gồm khu nuôi thuần hóa sinh vật biển, khu tai biến thiên nhiên, rừng ngập mặn nhân tạo, khu mẫu sinh vật biển lớn, các thiết bị nghiên cứu hải dương và tài nguyên phi vật thể.
+                </p>
+                <p>
+                    Tại đây, du khách sẽ được chiêm ngưỡng hơn 20.000 mẫu vật của các loài sinh vật biển và nước ngọt. Một số sinh vật được nuôi thả trong bể kính như cá mặt quỷ, cá mao tiên, hải quỳ ống... thể hiện sự đa dạng của hệ sinh thái biển Việt Nam. Đặc biệt, bảo tàng còn trưng bày bộ xương cá voi dài 18 m và tiêu bản bò biển Dugong, mắc lưới ngư dân tại Phú Quốc năm 2003.
+                </p>
+                <p>
+                    Vé vào cửa bảo tàng là 40.000 đồng một người lớn, 20.000 đồng đối với sinh viên và 10.000 đồng với học sinh.
+                </p>
+                <div class="row mx-1 mb-3">
+                    <div class="col-lg-4 col-md-12 col-sm-12 px-2 mb-3">
+                        <img class="w-100 d-inline-block" src="assets/images/NhaTrang/nhatrang-11.jpg" alt="">
+                    </div>
+                    <div class="col-lg-4 col-md-12 col-sm-12 px-2 mb-3">
+                        <img class="w-100 d-inline-block" src="assets/images/NhaTrang/nhatrang-12.jpg" alt="">
+                    </div>
+                    <div class="col-lg-4 col-md-12 col-sm-12 px-2 mb-3">
+                        <img class="w-100 d-inline-block" src="assets/images/NhaTrang/nhatrang-13.jpg" alt="">
+                    </div>
+                </div>
+                <div class="row mx-1 mb-3">
+                    <div class="col-lg-6 col-md-6 col-sm-12 px-2 mb-3">
+                        <img class="w-100 d-inline-block" src="assets/images/NhaTrang/nhatrang-14.jpg" alt="">
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12 px-2 mb-3">
+                        <img class="w-100 d-inline-block" src="assets/images/NhaTrang/nhatrang-15.jpg" alt="">
+                    </div>
+                </div>
+                <h5 class="font-weight-bold">
+                    Tháp bà Ponagar
+                </h5>
+                <p>
+                    Đây là ngôi đền Chăm Pa nằm trên đỉnh ngọn đồi cao khoảng 10 m so với mực nước biển, ở cửa sông Cái, nay thuộc phường Vĩnh Phước. Đây là một trong những di sản văn hóa Chăm Pa lớn nhất trên cả nước.
+                </p>
+                <p>
+                    Kiến trúc gồm 3 tầng, đi từ dưới lên trên theo bậc thang đá. Trong đó, khu vực Tháp cổng nay không còn nữa. Ở tầng giữa hay khu tiền đỉnh Mandapa là nơi dành cho khách nghỉ ngơi và chuẩn bị lễ vật. Ở đây có 4 hàng cột hình bát giác, gồm 12 cột nhỏ bên ngoài và 10 cột lớn phía trong.
+                </p>
+                <div class="row mx-1 mb-3">
+                    <div class="col-12 px-2">
+                        <img class="w-100 d-inline-block" src="assets/images/NhaTrang/nhatrang-16.jpg" alt="">
+                    </div>
+                </div>
+                <div class="row mx-1 mb-3">
+                    <div class="col-lg-4 col-md-12 col-sm-12 px-2 mb-3">
+                        <img class="w-100 d-inline-block" src="assets/images/NhaTrang/nhatrang-17.jpg" alt="">
+                    </div>
+                    <div class="col-lg-4 col-md-12 col-sm-12 px-2 mb-3">
+                        <img class="w-100 d-inline-block" src="assets/images/NhaTrang/nhatrang-18.jpg" alt="">
+                    </div>
+                    <div class="col-lg-4 col-md-12 col-sm-12 px-2 mb-3">
+                        <img class="w-100 d-inline-block" src="assets/images/NhaTrang/nhatrang-19.jpg" alt="">
+                    </div>
+                </div>
+                <p>
+                    Men theo những bậc thang dốc đứng, du khách sẽ đến với khu đền tháp, bao gồm 6 Kalan (đền tháp) màu đỏ gạch, trong đó 2 tháp đã bị phá hủy chỉ còn lại nền móng. Các tháp được xây dựng một kiểu nhưng khác nhau về kích thước, trong đó tháp đông bắc là cao nhất, khoảng 23 m. Bốn góc mái là ba tầng mái thu nhỏ trang trí nhiều linh vật như voi, thiên nga, dê... Xung quanh khu đền tháp có nhiều cây xanh để du khách ngồi nghỉ ngơi và hóng mát.
+                </p>
+                <p>
+                    Ngoài hành hương và chụp ảnh với những tòa tháp cổ nguy nga, du khách có thể ngắm cảnh thuyền bè tấp nập trên sông.
+                </p>
+
+                <h5 class="font-weight-bold">
+                    Núi Cô Tiên
+                </h5>
+                <p>
+                    Du khách đến TP Nha Trang, đi theo hướng đường Phạm Văn Đồng về phía bắc, đến khu vực Đường Đệ sẽ thấy núi Cô Tiên ở phường Vĩnh Hòa, được tạo thành từ ba đỉnh núi liền kề nhau, cao từ 200 m đến hơn 300 m. Điểm đến cách trung tâm thành phố khoảng 10 km, thường xuyên được người dân phố biển leo để rèn luyện sức khỏe hoặc cắm trại.
+                </p>
+                <p>
+                    Đường lên núi Cô Tiên không quá khó, trẻ nhỏ cũng có thể theo người lớn leo, thời gian tầm 30-45 phút, xuất phát từ chân núi đến chỗ cắm trại trên đỉnh số một. Thời gian leo núi để đón bình minh từ 5h30 và ngắm hoàng hôn từ 15h30. Nếu đi xe máy, bạn gửi xe ở nhà dân khu vực đường Ngô Văn Sở, giá 5.000 đồng/xe máy. Tại đây có cho thuê lều, đèn pin...
+                </p>
+                <div class="row mx-1 mb-3">
+                    <div class="col-12 px-2">
+                        <img class="w-100 d-inline-block" src="assets/images/NhaTrang/nhatrang-20.jpg" alt="">
+                        <p class="py-1 w-100 bg-light d-inline-block font-italic">Núi Cô Tiên</p>
+                    </div>
+                </div>
+                <h5 class="font-weight-bold">
+                    Công viên VinWonders Nha Trang
+                </h5>
+                <p>
+                    Đây là khu vui chơi giải trí, nghỉ dưỡng nằm trên đảo Hòn Tre, với tổng diện tích 200.000 m2, kết nối với đất liền bởi hệ thống cáp treo hiện đại. Khu vui chơi chia thành trong nhà, ngoài trời, công viên nước, thủy cung, khu biểu diễn nghệ thuật, lâu đài phim đại dương và khu ẩm thực.
+                </p>
+                <p>
+                    Ở đây, du khách có nhiều lựa chọn là vui chơi ở công viên nước hay trải nghiệm cảm giác mạnh với các trò chơi như tháp rơi tự do, đu quay cảm giác mạnh, tàu lượn cao tốc... Với gia đình có trẻ em, đừng quên ghé thăm lâu đài phim hay pháo đài kẹo ngọt.
+                </p>
+                <div class="row mx-1 mb-3">
+                    <div class="col-lg-6 col-md-6 col-sm-12 px-2 mb-3">
+                        <img class="w-100 h-100 d-inline-block" src="assets/images/NhaTrang/nhatrang-21.jpg" alt="">
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12 px-2 mb-3">
+                        <img class="w-100 h-100 d-inline-block" src="assets/images/NhaTrang/nhatrang-22.jpg" alt="">
+                    </div>
+                </div>
+                <p>
+                    Cuối ngày, du khách có thể cùng gia đình trải nghiệm vòng quay với chiều cao 120 m, để chiêm ngưỡng trọn bộ cảnh quan kỳ vĩ của vịnh Nha Trang.
+                </p>
+                <p>
+                    Giá vé vào cửa và cáp treo 2 chiều dành cho người lớn là 880.000 đồng, trẻ em từ 1 m đến 1,4 m có giá vé là 660.000 đồng. Khách hàng trên 60 tuổi được ưu đãi vé 530.000 đồng.
+                </p>
+                <p>
+                    Nguồn: vnexpress.net
+                </p>
+
+
+
+            </div>
+
+
+
+
+
+
+
+        </div>
+
+        <div class="recommend">
+            <h4 class="font-weight-bold mt-1 text-primary">
+                Có thể bạn sẽ thích
+            </h4>
+            <div class="ml-2">
+                <div>
+                    <a href="phongnha.html"><i class="fa-solid fa-circle-chevron-right"></i> Phong Nha - Kẻ Bàng</a>
+                </div>
+                <div>
+                    <a href="phoco.html"><i class="fa-solid fa-circle-chevron-right"></i> Phố Cổ Hà Nội</a>
+                </div>
+                <div>
+                    <a href="nhatho.html"><i class="fa-solid fa-circle-chevron-right"></i> Nhà Thờ Đức Bà</a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+
+    <!-- Footer -->
+    <footer class="gnill-footer bg-bottom gnill-no-pt bg-dark" style="background-image: url(assets/images/footerBG.jpg);">
+        <div class="container">
+              <div class="row mb-5">
+                <div class="col-md pt-5">
+                    <div class="gnill-footer-widget pt-md-5 mb-4">
+                        <h2 class="gnill-heading-2">Giới thiệu</h2>
+                        <p>
+                            Phương châm của chúng tôi là mang đến cho khách hàng những dịch vụ du lịch tốt nhất, rẻ nhất và ý nghĩa nhất. Trả lời thắc mắc và câu hỏi của các bạn là nghĩa vụ của chúng tôi. 
+                        </p>
+                        <ul class="gnill-footer-social list-unstyled float-md-left float-lft">
+                            <li class="gnill-animate"><a href="#"><span class="fa-brands fa-twitter"></span></a></li>
+                            <li class="gnill-animate"><a href="#"><span class="fa-brands fa-facebook"></span></a></li>
+                            <li class="gnill-animate"><a href="#"><span class="fa-brands fa-instagram"></span></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md pt-5 border-left">
+                      <div class="gnill-footer-widget pt-md-5 mb-4 ml-md-5">
+                        <h2 class="gnill-heading-2">Thông tin</h2>
+                        <ul class="list-unstyled">
+                              <li><a href="dulich.html" class="py-2 d-block">Điểm du lịch</a></li>
+                            <li><a href="car-rent-page-1.html" class="py-2 d-block">Xe du lịch</a></li>
+                            <li><a href="lienhe.html" class="py-2 d-block">Liên hệ với chúng tôi</a></li>
+                            <li><a href="thongtin.html" class="py-2 d-block">Thông tin về chúng tôi</a></li>
+                        </ul>
+                      </div>
+                </div>
+                <div class="col-md pt-5 border-left">
+                    <div class="gnill-footer-widget pt-md-5 mb-4">
+                        <h2 class="gnill-heading-2">Bạn có thắc mắc?</h2>
+                        <div class="block-23 mb-3">
+                            <ul>
+                                <li><span class="icon fa fa-map-marker"></span><span class="text">127 Đường Lê Hồng Phong, Trường Thi, Thành phố Vinh, Nghệ An</span></li>
+                                <li><a href="#"><span class="icon fa fa-phone"></span><span class="text">+84 904 786 893</span></a></li>
+                                <li><a href="#"><span class="icon fa fa-paper-plane"></span><span class="text">manhphuc2003@gmail.com</span></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <p>
+                        &copy;<script>document.write(new Date().getFullYear());</script> GNILLEVART
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery-migrate-3.0.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="https://cdn.rawgit.com/afeld/bootstrap-toc/v1.0.1/dist/bootstrap-toc.min.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/jquery.stellar.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/jquery.animateNumber.min.js"></script>
+    <script src="js/bootstrap-datepicker.js"></script>
+    <script src="js/scrollax.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+    <script src="js/google-map.js"></script>
+    <script src="js/gnillevart.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

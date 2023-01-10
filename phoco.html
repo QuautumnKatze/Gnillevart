@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kinh Nghiệm du lịch Phố cổ Hà Nội</title>
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Arizonia&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/afeld/bootstrap-toc/v1.0.1/dist/bootstrap-toc.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/owl.theme.default.min.css">
+	<link rel="stylesheet" href="css/magnific-popup.css">
+	<link rel="stylesheet" href="css/bootstrap-datepicker.css">
+	<link rel="stylesheet" href="css/jquery.timepicker.css">
+	<link rel="stylesheet" href="css/flaticon.css">
+	<link rel="stylesheet" href="css/bootstrap.style.css">
+	<link rel="stylesheet" href="css/gnillevart.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+	<nav class="navbar navbar-expand-lg navbar-dark gnill_navbar bg-dark gnill-navbar-light" id="gnill-navbar">
+		<div class="container">
+			<a class="navbar-brand" href="index.html">Gnillevart</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#gnill-nav" aria-controls="gnill-nav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="oi oi-menu"></span> Menu
+			</button>
+
+			<div class="collapse navbar-collapse" id="gnill-nav">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item"><a href="index.html" class="nav-link"><span class="fa-solid fa-house"></span> Trang chủ</a></li>
+					<li class="nav-item"><a href="thongtin.html" class="nav-link"><span class="fa-solid fa-people-group"></span> Thông tin</a></li>
+					<li class="nav-item active"><a href="dulich.html" class="nav-link"><span class="fa-solid fa-mountain"></span> Du lịch</a></li>
+					<li class="nav-item"><a href="lienhe.html" class="nav-link"><span class="fa-solid fa-message"></span> Liên hệ</a></li>
+					<li class="nav-item"><a href="#" class="nav-link" data-toggle="modal"
+						data-target="#modalLoginForm"><span class="fa-solid fa-user"></span> Tài khoản</a></div></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<!--NAV END-->
+
+    <div class="gnill-top-bg js-fullheight" style="background-image: url(assets/images/HaNoi.jpg); height: 650px;">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="row no-gutters slider-text js-fullheight align-items-end justify-content-center">
+                <div class="col-md-9 gnill-animate pb-5 text-center">
+                 <p class="breadcrumbs">
+                    <span class="mr-2">
+                        <a href="index.html">
+                            Trang chủ <i class="fa fa-chevron-right"></i>
+                        </a>
+                    </span> 
+                    <span class="mr-2">
+                        <a href="index.html">
+                            Hướng dẫn du lịch <i class="fa fa-chevron-right"></i>
+                        </a>
+                    </span> 
+                    <span>
+                        Phố Cổ Hà Nội <i class="fa fa-chevron-right"></i>
+                    </span>
+                </p>
+                 <h1 class="mb-0 bread">Phố Cổ Hà Nội</h1>
+               </div>
+             </div>
+		</div>
+    </div>
+	<!--TOP END-->
+
+    <div class="modal fade position-fixed" id="modalLoginForm">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header text-center">
+                    <h4 class="modal-title w-100 font-weight-bold">Đăng nhập</h4>
+                    <button type="button" class="close" data-dismiss="modal">
+                        <span aria-hidden="true"><i class="fa fa-times" aria-hidden="true"></i></span>
+                    </button>
+                </div>
+
+                <div class="modal-body mx-3">
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Email hoặc Tên Đăng Nhập</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Example@email.com">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="exampleInputPassword1">Mật khẩu</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Mật khẩu">
+                    </div>
+                    <div class="row mb-4">
+                        <div class="col d-flex justify-content-center">
+                            <div class="form-check">
+                                <input type="checkbox" class="form-check-input" id="exampleCheck1" checked>
+                                <label class="form-check-label" for="exampleCheck1">Ghi nhớ đăng nhập</label>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <a href="#!">Quên mật khẩu?</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer justify-content-center">
+                    <button type="submit" class="btn btn-outline-dark">Đăng nhập</button>
+                </div>
+                <div class="text-center">
+                    <p>Chưa có tài khoản? <a class="nav-link" href="#" data-toggle="modal" 
+                        data-target="#modalRegisterForm" data-dismiss="modal">Đăng ký</a></p>
+                    <button type="button" class="btn btn-link btn-floating mx-1">
+                      <i class="fa-brands fa-facebook-f"></i>
+                    </button>
+                
+                    <button type="button" class="btn btn-link btn-floating mx-1">
+                      <i class="fa-brands fa-google"></i>
+                    </button>
+                
+                    <button type="button" class="btn btn-link btn-floating mx-1">
+                      <i class="fa-brands fa-twitter"></i>
+                    </button>
+                
+                    <button type="button" class="btn btn-link btn-floating mx-1">
+                      <i class="fa-brands fa-github" title="github"></i>
+                    </button>
+                  </div>
+            </div>
+        </div>
+    </div>
+	<!--LOGIN FORM END-->
+
+    <div class="modal fade position-fixed" id="modalRegisterForm">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header text-center">
+                    <h4 class="modal-title w-100 font-weight-bold">Đăng Ký</h4>
+                    <button type="button" class="close" data-dismiss="modal">
+                        <span aria-hidden="true"><i class="fa fa-times" aria-hidden="true"></i></span>
+                    </button>
+                </div>
+
+                <div class="modal-body mx-3">
+                    <div class="form-group">
+                        <label for="InputName">Tên Đăng Nhập</label>
+                        <input type="email" class="form-control" id="InputName" 
+                        aria-describedby="emailHelp" placeholder="Nhập tên đăng nhập">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="InputEmail1">Địa chỉ Email</label>
+                        <input type="email" class="form-control" id="InputEmail1" 
+                        aria-describedby="emailHelp" placeholder="Example@email.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="InputPassword1">Mật khẩu</label>
+                        <input type="password" class="form-control" id="InputPassword1" placeholder="Mật khẩu">
+                    </div>
+                    
+                </div>
+                <div class="modal-footer justify-content-center">
+                    <button type="submit" class="btn btn-outline-dark">Đăng ký</button>
+                </div>
+                <div class="text-center">
+                    <p>Đã có tài khoản? <a class="nav-link" href="#" data-toggle="modal" 
+                        data-target="#modalLoginForm" data-dismiss="modal">Đăng nhập</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+	<!--REGIS FORM END-->
+
+    <section class="gnill-blog">
+        <div class="gnill-blog-content">
+            <div>
+                <h1 class="mb-0 mt-2 bread text-center">Kinh nghiệm du lịch Phố cổ Hà Nội</h1>
+            </div>
+            <hr>
+            <h3>
+                Nhắc tới Hà Nội thì chắc hẳn ai cũng biết đến “Hà Nội 36 phố phường” hay “phố cổ Hà Nội”, với những con đường đã lưu giữ kí ức lịch sử của thủ đô. Phố cổ nay là điểm du lịch hấp dẫn mà du khách không thể bỏ qua khi đến đây.
+            </h3>
+            <div>
+                <h3 class="mt-1 text-info">
+                    1. Phố cổ Hà Nội ở đâu?
+                </h3>
+                <p>
+                    Phố cổ Hà Nội nằm ở phía Tây và Bắc của hồ Hoàn Kiếm gồm 36 phố phường, mỗi phố lại tập trung bán một mặt hàng khác nhau. Giới hạn của phố cổ phía Bắc đến phố Hàng Đậu, phía Tây là phố Phùng Hưng, phía Nam là các tuyến phố : Hàng Bông, Hàng Gai, Cầu Gỗ và Hàng Thùng, phía Đông là đường Trần Quang Khải và Trần Nhật Duật.
+                </p>
+                <div class="row mx-1 text-center">
+                    <div class="col-lg-12">
+                        <img class="w-100 d-inline-block" src="assets/images/PhoCo/Phoco01.jpg" alt="">
+                        <p class="py-1 w-100 bg-light d-inline-block font-italic">Một góc của Phố cổ Hà Nội</p>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <h3 class="mt-1 text-info">
+                    2. Đến phố cổ như thế nào?
+                </h3>
+                <p>
+                    Đến phố cổ Hà Nội như thế nào? Có rất nhiều phương tiện để các bạn lựa chọn tới khu phố cổ Hà Nội như: xe bus, xe ôm, xe máy, taxi… Nếu đi bằng xe bus thì bạn có thể lựa chọn các tuyến xe: 09, 14, 36 để tới hồ Hoàn Kiếm hoặc 03, 11, 14, 18, 22, 34, 40 để tới Ô Quan Chưởng.
+                </p>
+            </div>
+            <div>
+                <h3 class="mt-1 text-info">
+                    3. Những địa điểm vui chơi, thăm quan ở phố cổ Hà Nội
+                </h3>
+                <p>
+                    Cùng khám phá xem <b>khu phố cổ Hà Nội</b> có những địa điểm vui chơi và tham quan nào thú vị nhé!
+                </p>
+                <ul class="desti">
+                    <li>
+                        <h4 class="mt-1 text-success">Hồ Hoàn Kiếm</h4>
+                        <p>
+                            Hay còn có cái tên gọi khác là Hồ Gươm, gắn liền với truyền thuyết Rùa thần đòi gươm. Hồ Hoàn Kiếm nằm ở trung tâm thành phố, nơi thu hút rất nhiều khách du lịch trong nước và ngoài nước. Bên cạnh hồ có rất nhiều điểm du lịch khác : Đền Ngọc sơn, Tháp Bút, Cầu Thê Húc… Đến đây bạn có thể  thưởng thức được món kem Tràng Tiền nổi tiếng. Hồ Hoàn Kiếm chính là địa điểm không thể bỏ qua khi <b>du lịch phố cổ Hà Nội</b>.
+                        </p>
+                        <div class="row mx-1 text-center">
+                            <div class="col-lg-12">
+                                <img class="w-100 d-inline-block" src="assets/images/PhoCo/Phoco02.png" alt="">
+                                <p class="py-1 w-100 bg-light d-inline-block font-italic">Hồ Hoàn Kiếm</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <h4 class="mt-1 text-success">Đền Ngọc Sơn</h4>
+                        <p>
+                            Đền Ngọc Sơn nằm trên đảo Ngọc của hồ Hoàn Kiếm, là nơi thờ thần Văn Xương và Đức thánh Trần. Để vào được trong đền bạn phải đi qua cầu Thê Húc. Quần thể công trình Đền Ngọc Sơn được xếp hạng di tích quốc gia đặc biệt ở Việt Nam. Tới đây bạn sẽ được tìm hiểu về sự tích của Hồ Gươm hay là lịch sử của Hà Nội.
+                        </p>
+                        <div class="row mx-1 text-center">
+                            <div class="col-lg-12">
+                                <img class="w-100 d-inline-block" src="assets/images/PhoCo/Phoco03.jpg" alt="">
+                                <p class="py-1 w-100 bg-light d-inline-block font-italic">Cổng vào Đền Ngọc Sơn</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <h4 class="mt-1 text-success">Chợ Đồng Xuân</h4>
+                        <p>
+                            Chợ Đồng Xuân là một trong những chợ lớn nhất ở Hà Nội và cũng là chợ lớn nhất nằm trong khu phố cổ Hà Nội. Tới đây bạn sẽ chứng kiến được cảnh mua bán tấp nập, sầm uất, buôn bán nhiều các mặt hàng. Bạn có thể tới chợ Đồng Xuân lựa chọn mua những món quà để đem về làm quà tặng.
+                        </p>
+                        <div class="row mx-1 text-center">
+                            <div class="col-lg-12">
+                                <img class="w-100 d-inline-block" src="assets/images/PhoCo/Phoco04.jpg" alt="">
+                                <p class="py-1 w-100 bg-light d-inline-block font-italic">Bên ngoài Chợ Đồng Xuân</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <h4 class="mt-1 text-success">Phố Hàng Mã – điểm đến thú vị trong khu phố cổ Hà Nội</h4>
+                        <p>
+                            Nằm trong khu phố cổ, phố Hàng Mã là được xem là một trong những con phố đông đúc và rực rỡ sắc màu nhất ở Hà Nội. Đặc biệt vào những dịp lễ, tết, con phố được trang hoàng bằng những đèn lồng, đồ chơi phát sáng, bóng bay khiến nơi đây không chỉ tràn ngập trong âm thanh, màu sắc, ánh sáng mà còn mang đậm dấu ấn tâm linh của người phương Đông.
+                        </p>
+                        <div class="row mx-1 text-center">
+                            <div class="col-lg-12">
+                                <img class="w-100 d-inline-block" src="assets/images/PhoCo/Phoco05.jpg" alt="">
+                                <p class="py-1 w-100 bg-light d-inline-block font-italic">Phố Hàng Mã</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <h4 class="mt-1 text-success">Nhà cổ Mã Mây</h4>
+                        <p>
+                            Là một trong những <b>địa điểm tham quan hấp dẫn ở phố cổ</b>, nhà cổ ở 87 Mã Mây là loại nhà ở truyền thống tái hiện được không gian sinh sống, nét đặc trưng của con người Hà Nội xưa. Ngôi nhà được mở cửa thường xuyên để cho khách du lịch đến thăm quan, giá vé vào cửa là 10.000đ.
+                        </p>
+                        <div class="row mx-1 text-center">
+                            <div class="col-lg-12">
+                                <img class="w-100 d-inline-block" src="assets/images/PhoCo/Phoco06.jpg" alt="">
+                                <p class="py-1 w-100 bg-light d-inline-block font-italic">Nhà cổ 87 Mã Mây</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <h4 class="mt-1 text-success">Đền Bạch Mã</h4>
+                        <p>
+                            Đền Bạch Mã là một trong tứ trấn của kinh thành Thăng Long xưa, nằm ở giữa phố Hàng Buồm, tại số nhà 76-78. Trong đền thờ thần Long Đỗ và ngựa trắng, từng được sử sách ghi lại nhiều sự tích hư thực. Đây là di tích lịch sử văn hóa có nghìn năm tuổi, cổ kính, lâu đời nhất trong số các ngôi đền xưa của kinh thành Thăng Long còn sót lại cho tới nay.
+                        </p>
+                        <div class="col-lg-12">
+                            <img class="w-100 d-inline-block" src="assets/images/PhoCo/Phoco07.jpg" alt="">
+                            <p class="py-1 w-100 bg-light d-inline-block font-italic">Đền Bạch Mã</p>
+                        </div>
+                    </li>
+                    <li>
+                        <h4 class="mt-1 text-success">Phố Tạ Hiện</h4>
+                        <p>
+                            Đây là con phố bé nhỏ nằm ở giữa lòng Hà Nội lúc nào cũng đông nghịt người, đây là địa điểm uống bia nổi tiếng ở Hà Thành được các bạn trẻ trong nước và quốc tế rất yêu thích. Uống bia xong ngay đó còn có 1900 Bar tầm 9h lên nhạc bạn có thể vào để quẩy. Nơi đây còn được biết đến với cái tên gọi “ngã tư quốc tế” đã được đưa vào danh sách “những nơi phải đến” khi đi du lịch Hà Nội của các du khách nước ngoài.
+                        </p>
+                        <div class="col-lg-12">
+                            <img class="w-100 d-inline-block" src="assets/images/PhoCo/Phoco08.jpg" alt="">
+                            <p class="py-1 w-100 bg-light d-inline-block font-italic">Phố Tạ Hiện</p>
+                        </div>
+                    </li>
+                    <li>
+                        <h4 class="mt-1 text-success">Ô Quan Chưởng</h4>
+                        <p>
+                            Ô Quan Chưởng là 1 trong 5 cửa ô còn sót lại của kinh thành Thăng Long xưa, được thiết kế theo kiểu vọng lâu – một kiến trúc đặc trưng của thời nhà Nguyễn. Tên của cửa ô là do người dân đặt để ghi nhớ công lao và sự hi sinh anh dũng của viên quan Chưởng Cơ trong thời kì chống Pháp.
+                        </p>
+                        <div class="col-lg-12">
+                            <img class="w-100 d-inline-block" src="assets/images/PhoCo/Phoco09.jpg" alt="">
+                            <p class="py-1 w-100 bg-light d-inline-block font-italic">Ô Quan Chưởng</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <h3 class="mt-1 text-info">4. Ăn gì ở phố cổ Hà Nội?</h3>
+                <p>
+                    Khi du lịch phố cổ Hà Nội thì chắc chắn bạn sẽ không thể bỏ qua những món ăn ở đây. Sau đây chúng ta cùng tìm hiểu một số món ngon phố cổ cùng địa chỉ ăn uống nổi tiếng nhất ở đây nhé :
+                </p>
+                <ul>
+                    <li><p> Ẩm thực chợ Đồng Xuân</p></li>
+                    <li><p> Bún chả Hàng Buồm – 43 Hàng Buồm</p></li>
+                    <li><p> Phở Bát Đàn – 49 Bát Đàn</p></li>
+                    <li><p> Bún thang ở bún thang Cầu Gỗ – 32 Cầu Gỗ</p></li>
+                    <li><p> Xôi chè, bánh trôi tàu ở quán chè bà Mai – 93 Hàng Bạc, quận Hoàn Kiếm</p></li>
+                    <li><p> Bún đậu mắm tôm ở ngõ 31 Hàng Khay, quận Hoàn Kiếm</p></li>
+                    <li><p> Chả cá Lã Vọng – 14 Chả Cá</p></li>
+                    <li><p> Nộm bò khô, bánh bột lọc ở phố Hoàn Kiếm</p></li>
+                </ul>
+            </div>
+            <div>
+                <h3 class="mt-1 text-info">5. Chợ đêm phố cổ Hà Nội</h3>
+                <p>
+                    Chợ đêm phố cổ Hà Nội được hoạt động từ 18 đến 23h các ngày thứ 6, thứ 7 và chủ nhật hàng tuần, là một trong những địa điểm buôn bán sầm uất với sốc lượng gian hàng tham gia lên tới gần 4000. Các mặt hàng ở đây rất đa dạng và phong phú từ quần áo tới giầy dép, đồ dùng gia dụng, các đồ thủ công, quà lưu niệm… với giá cả bình dân.
+                </p>
+                <div class="col-lg-12">
+                    <img class="w-100 d-inline-block" src="assets/images/PhoCo/Phoco10.jpg" alt="">
+                    <p class="py-1 w-100 bg-light d-inline-block font-italic">Nhộn nhịp mua sắm ở chợ đêm Đồng Xuân</p>
+                </div>
+                <p>
+                    Vào các tối thứ 7 hàng tuần, 2 đầu tuyến phố có tổ chức các buổi biểu diễn, giao lưu văn hóa nghệ thuật dân gian truyền thống như: chèo xẩm, quan họ, ca trù. Đây là độc đáo của chợ đêm phố cổ thu hút rất nhiều du khách, đặc biệt là du khách nước ngoài.
+                </p>
+                <div class="col-lg-12">
+                    <img class="w-100 d-inline-block" src="assets/images/PhoCo/Phoco11.jpg" alt="">
+                    <p class="py-1 w-100 bg-light d-inline-block font-italic">Nghệ thuật ca nhạc đường phố ở phố cổ thu hút rất đông người tham gia</p>
+                </div>
+            </div>
+            <div>
+                <h3 class="mt-1 text-info">6. Lịch trình du lịch phố cổ Hà Nội để bạn tham khảo</h3>
+                <p> 
+                    - Buổi sáng các bạn có thể ghé qua ngõ chợ Đồng Xuân để thưởng thức những món ăn ở đây như bún ốc, bún riêu… Ăn sáng xong bạn có thể vào trong chợ để tham quan các gian hàng. Sau đó bạn có thể tiếp tục hành trình tới các địa điểm như Ô Quan Chưởng, nhà cổ Mã Mây, đền Bạch Mã
+                </p>
+                <p> 
+                    - Buổi trưa bạn có thể lựa chọn ăn bún chả Hàng Mành, bún đậu ngõ Phất Lộc hay cơm đảo gà rang trên phố Mã Mây. Đến chiều bạn tiếp tục tham quan hồ Hoàn Kiếm và đền Ngọc Sơn.
+                </p>
+                <p>
+                    - Buổi tối nếu vào cuối tuần thì bạn có thể đi dạo ở phố đi bộ, khám phá chợ đêm. Hoặc không bạn có thể tới phố Tây Tạ Hiện ăn uống và ngắm nhìn sự nhộn nhịp của thành phố.
+                </p>
+            </div>
+            <p>Nguồn: vntrip.vn</p>
+        </div>
+
+        <div class="recommend">
+            <h4 class="font-weight-bold mt-1 text-primary">
+                Có thể bạn sẽ thích
+            </h4>
+            <div class="ml-2">
+                <div>
+                    <a href="phongnha.html"><i class="fa-solid fa-circle-chevron-right"></i> Phong Nha - Kẻ Bàng</a>
+                </div>
+                <div>
+                    <a href="nhatrang.html"><i class="fa-solid fa-circle-chevron-right"></i> Bãi Biển Nha Trang</a>
+                </div>
+                <div>
+                    <a href="nhatho.html"><i class="fa-solid fa-circle-chevron-right"></i> Nhà Thờ Đức Bà</a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+
+    <!-- Footer -->
+    <footer class="gnill-footer bg-bottom gnill-no-pt bg-dark" style="background-image: url(assets/images/footerBG.jpg);">
+        <div class="container">
+              <div class="row mb-5">
+                <div class="col-md pt-5">
+                    <div class="gnill-footer-widget pt-md-5 mb-4">
+                        <h2 class="gnill-heading-2">Giới thiệu</h2>
+                        <p>
+                            Phương châm của chúng tôi là mang đến cho khách hàng những dịch vụ du lịch tốt nhất, rẻ nhất và ý nghĩa nhất. Trả lời thắc mắc và câu hỏi của các bạn là nghĩa vụ của chúng tôi. 
+                        </p>
+                        <ul class="gnill-footer-social list-unstyled float-md-left float-lft">
+                            <li class="gnill-animate"><a href="#"><span class="fa-brands fa-twitter"></span></a></li>
+                            <li class="gnill-animate"><a href="#"><span class="fa-brands fa-facebook"></span></a></li>
+                            <li class="gnill-animate"><a href="#"><span class="fa-brands fa-instagram"></span></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md pt-5 border-left">
+                      <div class="gnill-footer-widget pt-md-5 mb-4 ml-md-5">
+                        <h2 class="gnill-heading-2">Thông tin</h2>
+                        <ul class="list-unstyled">
+                              <li><a href="dulich.html" class="py-2 d-block">Điểm du lịch</a></li>
+                            <li><a href="car-rent-page-1.html" class="py-2 d-block">Xe du lịch</a></li>
+                            <li><a href="lienhe.html" class="py-2 d-block">Liên hệ với chúng tôi</a></li>
+                            <li><a href="thongtin.html" class="py-2 d-block">Thông tin về chúng tôi</a></li>
+                        </ul>
+                      </div>
+                </div>
+                <div class="col-md pt-5 border-left">
+                    <div class="gnill-footer-widget pt-md-5 mb-4">
+                        <h2 class="gnill-heading-2">Bạn có thắc mắc?</h2>
+                        <div class="block-23 mb-3">
+                            <ul>
+                                <li><span class="icon fa fa-map-marker"></span><span class="text">127 Đường Lê Hồng Phong, Trường Thi, Thành phố Vinh, Nghệ An</span></li>
+                                <li><a href="#"><span class="icon fa fa-phone"></span><span class="text">+84 904 786 893</span></a></li>
+                                <li><a href="#"><span class="icon fa fa-paper-plane"></span><span class="text">manhphuc2003@gmail.com</span></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <p>
+                        &copy;<script>document.write(new Date().getFullYear());</script> GNILLEVART
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery-migrate-3.0.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="https://cdn.rawgit.com/afeld/bootstrap-toc/v1.0.1/dist/bootstrap-toc.min.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/jquery.stellar.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/jquery.animateNumber.min.js"></script>
+    <script src="js/bootstrap-datepicker.js"></script>
+    <script src="js/scrollax.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+    <script src="js/google-map.js"></script>
+    <script src="js/gnillevart.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

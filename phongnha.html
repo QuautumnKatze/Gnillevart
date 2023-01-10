@@ -1,0 +1,782 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kinh Nghiệm du lịch Phong Nha kẻ Bàng</title>
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Arizonia&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/afeld/bootstrap-toc/v1.0.1/dist/bootstrap-toc.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/owl.theme.default.min.css">
+	<link rel="stylesheet" href="css/magnific-popup.css">
+	<link rel="stylesheet" href="css/bootstrap-datepicker.css">
+	<link rel="stylesheet" href="css/jquery.timepicker.css">
+	<link rel="stylesheet" href="css/flaticon.css">
+	<link rel="stylesheet" href="css/bootstrap.style.css">
+	<link rel="stylesheet" href="css/gnillevart.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+	<nav class="navbar navbar-expand-lg navbar-dark gnill_navbar bg-dark gnill-navbar-light" id="gnill-navbar">
+		<div class="container">
+			<a class="navbar-brand" href="index.html">Gnillevart</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#gnill-nav" aria-controls="gnill-nav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="oi oi-menu"></span> Menu
+			</button>
+
+			<div class="collapse navbar-collapse" id="gnill-nav">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item"><a href="index.html" class="nav-link"><span class="fa-solid fa-house"></span> Trang chủ</a></li>
+					<li class="nav-item"><a href="thongtin.html" class="nav-link"><span class="fa-solid fa-people-group"></span> Thông tin</a></li>
+					<li class="nav-item active"><a href="dulich.html" class="nav-link"><span class="fa-solid fa-mountain"></span> Du lịch</a></li>
+					<li class="nav-item"><a href="lienhe.html" class="nav-link"><span class="fa-solid fa-message"></span> Liên hệ</a></li>
+					<li class="nav-item"><a href="#" class="nav-link" data-toggle="modal"
+						data-target="#modalLoginForm"><span class="fa-solid fa-user"></span> Tài khoản</a></div></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<!--NAV END-->
+
+    <div class="gnill-top-bg js-fullheight" style="background-image: url(assets/images/PhongNha.jpg); height: 650px;">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="row no-gutters slider-text js-fullheight align-items-end justify-content-center">
+                <div class="col-md-9 gnill-animate pb-5 text-center">
+                 <p class="breadcrumbs">
+                    <span class="mr-2">
+                        <a href="index.html">
+                            Trang chủ <i class="fa fa-chevron-right"></i>
+                        </a>
+                    </span> 
+                    <span class="mr-2">
+                        <a href="index.html">
+                            Hướng dẫn du lịch <i class="fa fa-chevron-right"></i>
+                        </a>
+                    </span> 
+                    <span>
+                        Phong Nha Kẻ Bàng <i class="fa fa-chevron-right"></i>
+                    </span>
+                </p>
+                 <h1 class="mb-0 bread">Phong Nha Kẻ Bàng</h1>
+               </div>
+             </div>
+		</div>
+    </div>
+	<!--TOP END-->
+
+    <div class="modal fade position-fixed" id="modalLoginForm">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header text-center">
+                    <h4 class="modal-title w-100 font-weight-bold">Đăng nhập</h4>
+                    <button type="button" class="close" data-dismiss="modal">
+                        <span aria-hidden="true"><i class="fa fa-times" aria-hidden="true"></i></span>
+                    </button>
+                </div>
+
+                <div class="modal-body mx-3">
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Email hoặc Tên Đăng Nhập</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Example@email.com">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="exampleInputPassword1">Mật khẩu</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Mật khẩu">
+                    </div>
+                    <div class="row mb-4">
+                        <div class="col d-flex justify-content-center">
+                            <div class="form-check">
+                                <input type="checkbox" class="form-check-input" id="exampleCheck1" checked>
+                                <label class="form-check-label" for="exampleCheck1">Ghi nhớ đăng nhập</label>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <a href="#!">Quên mật khẩu?</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer justify-content-center">
+                    <button type="submit" class="btn btn-outline-dark">Đăng nhập</button>
+                </div>
+                <div class="text-center">
+                    <p>Chưa có tài khoản? <a class="nav-link" href="#" data-toggle="modal" 
+                        data-target="#modalRegisterForm" data-dismiss="modal">Đăng ký</a></p>
+                    <button type="button" class="btn btn-link btn-floating mx-1">
+                      <i class="fa-brands fa-facebook-f"></i>
+                    </button>
+                
+                    <button type="button" class="btn btn-link btn-floating mx-1">
+                      <i class="fa-brands fa-google"></i>
+                    </button>
+                
+                    <button type="button" class="btn btn-link btn-floating mx-1">
+                      <i class="fa-brands fa-twitter"></i>
+                    </button>
+                
+                    <button type="button" class="btn btn-link btn-floating mx-1">
+                      <i class="fa-brands fa-github" title="github"></i>
+                    </button>
+                  </div>
+            </div>
+        </div>
+    </div>
+	<!--LOGIN FORM END-->
+
+    <div class="modal fade position-fixed" id="modalRegisterForm">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header text-center">
+                    <h4 class="modal-title w-100 font-weight-bold">Đăng Ký</h4>
+                    <button type="button" class="close" data-dismiss="modal">
+                        <span aria-hidden="true"><i class="fa fa-times" aria-hidden="true"></i></span>
+                    </button>
+                </div>
+
+                <div class="modal-body mx-3">
+                    <div class="form-group">
+                        <label for="InputName">Tên Đăng Nhập</label>
+                        <input type="email" class="form-control" id="InputName" 
+                        aria-describedby="emailHelp" placeholder="Nhập tên đăng nhập">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="InputEmail1">Địa chỉ Email</label>
+                        <input type="email" class="form-control" id="InputEmail1" 
+                        aria-describedby="emailHelp" placeholder="Example@email.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="InputPassword1">Mật khẩu</label>
+                        <input type="password" class="form-control" id="InputPassword1" placeholder="Mật khẩu">
+                    </div>
+                    
+                </div>
+                <div class="modal-footer justify-content-center">
+                    <button type="submit" class="btn btn-outline-dark">Đăng ký</button>
+                </div>
+                <div class="text-center">
+                    <p>Đã có tài khoản? <a class="nav-link" href="#" data-toggle="modal" 
+                        data-target="#modalLoginForm" data-dismiss="modal">Đăng nhập</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+	<!--REGIS FORM END-->
+
+    <section class="gnill-blog">
+        <div class="gnill-blog-content">
+            <div>
+                <h1 class="mb-0 mt-2 bread text-center">KINH NGHIỆM DU LỊCH PHONG NHA KẺ BÀNG</h1>
+            </div>
+            <hr>
+            <div>
+                <p class="text-justify">
+                    Vườn quốc gia Phong Nha Kẻ Bàng di sản thiên nhiên thế giới thắng cảnh nguyên sơ mà tạo hóa đã ban tặng cho người dân Quảng Bình, một mảnh đất gắn liền với những chiến tích anh hùng lịch sử. Nơi đây, sự giao hòa của rừng nguyên sinh và sông Son, cùng với hệ thống hang động kỳ vĩ tạo nên một bức tranh thuỷ mặc làm say lòng người. Dưới đây là một số kinh nghiệm du lịch Phong Nha Kẻ Bàng hữu ích, thông tin cần biết tham khảo, chuẩn bị lên kế hoạch chu đáo để có chuyến đi thú vị nhất.
+                </p>
+                <p class="text-justify">
+                    Vườn quốc gia Phong Nha Kẻ Bàng thuộc huyện Bố Trạch, cách thành phố Đồng Hới khoảng 50 km về phía Tây Bắc. Hầu hết tất cả các phương tiện đều chỉ đưa bạn đến trung tâm thành phố Đồng Hới sau đó bạn cần đi tiếp đến Phong Nha Kẻ Bàng.
+                </p>
+            </div>
+
+            <div class="row mx-1 text-center">
+                <div class="col-lg-12">
+                    <img class="w-100 d-inline-block" src="assets/images/PhongNha/du-lich-phong-nha-ke-bang.jpg" alt="">
+                    <p class="py-1 w-100 bg-light d-inline-block font-italic">Du lịch Phong Nha Kẻ Bàng</p>
+                </div>
+            </div>
+
+            <div>
+                <h3 class="mt-1 text-info">
+                    1. Phương tiện đến Đồng Hới Quảng Bình
+                </h3>
+                <p>
+                    – Bạn có thể đi bằng đường tàu hỏa, máy bay, hoặc xe khách để tới Đồng Hới Quảng Bình.
+                </p>
+            </div>
+
+            <div>
+                <h4 class="mt-1 text-success">
+                    1.1 Đến Quảng Bình bằng xe bus
+                </h4>
+                <p>
+                    <b>1.1.1</b> Từ Hà Nội: Quảng đường từ Hà Nội đến Đồng Hới – Quảng Bình dài khoảng 722 km. Trung bình mỗi ngày có khoảng 23 chuyến xe khách chạy tuyến đường này. Thời gian di chuyển trên chặng khoảng 9 giờ giá vé dao động từ 200.000 vnđ – 250.000 vnđ. Bắt đầu xuất phát từ Hà Nội khoảng 6 giờ – 10 giờ tối đến Quảng Bình khoảng 4-5h sáng hôm sau khá sớm. Nếu bạn đặt tour của công ty du lịch Thám Hiểm Phong Nha sẽ được xe đón tận nơi về nhận phòng nghỉ ngơi miễn phí tại khách sạn Đồng Hới của công ty.
+                </p>
+                <p>
+                    Bạn có thể liện hệ các đại lý bán vé xe open tour :
+                </p>
+                <ul>
+                    <li><p>Đại lý bán vé xe Cố Hương – Hà Nội : 0941 297 666 / 0941297888 – Đồng Hới: 0941 090 666</p></li>
+                    <li><p>Đại lý bán vé xe Hưng Long – Hà Nội: 0963 388 388 / 0914 077 779 – Đồng Hới: 02323.889.889/  0232.3779.779</p></li>
+                    <li><p>Đại lý bán vé xe Hà Quảng – Hà Nội: 096.7778.772 / 096.7778.770 – Đồng Hới: 0984 229 422</p></li>
+                    <li><p>Đại lý bán vé xe Hoàng Linh : 0968 333 857/ 0232. 4896896</p></li>
+                    <li><p>Đại lý bán vé xe Dòng Hiền : (0232)2470 688</p></li>
+                    <li><p>Đại lý bán vé xe Dũng Hồng : (0232). 6.292.566</p></li>
+                    <li><p>Đại lý bán vé xe Hưng Thành : (0232)3851 995 / (0232)3851 996</p></li>
+                </ul>
+                <p>
+                    <b>1.1.2</b> Từ Đà Nẵng: Quảng đường từ Đà Nẵng đến Đồng Hới dài khoảng 275km. Thời gian di chuyển khoảng 4 giờ 35 phút. Giá vé tuyến đường từ Đà Nẵng đến Đồng Hới dao động khoảng 125.000 vnđ đến 200.000 vnđ. Bạn có thể liện hệ các nhà xe có giường nằm đi cho đỡ mệt:
+                </p>
+                <ul>
+                    <li><p>Nhà xe Hải Hà: 0905.619.619 / 0905.735.579</p></li>
+                    <li><p>Nhà xe Hạnh Luyến: 0985.989.005 / 0985.898.005</p></li>
+                    <li><p>Nhà xe Trung Tín: 0905.416.681 / 0905.122.681</p></li>
+                </ul>
+                <p>
+                    <b>1.1.3</b> Từ Thành phố Hồ Chí Minh: khoảng cách khá xa, đi xe rất mất nhiều thời gian bạn nên lựa chọn phương tiện là máy bay. Tuy nhiên nếu bạn có nhiều thời gian và muốn tiết kiệm có thể liên hệ nhà xe Hoàng Long ở TP Hồ Chí Minh 028.22438989 – Quầy vé 73 BX Miền Đông 028.35113113, nhà xe Mai Linh ở Hồ Chí Minh: (028) 39 39 39 39 – Phòng vé Bx Miền Đông: (028) 35 112 888
+                </p>
+            </div>
+
+            <div>
+                <h4 class="mt-1 text-success">
+                    1.2 Đến Quảng Bình bằng tàu hoả
+                </h4>
+                <p>
+                    Các tỉnh thành có khoảng cách đến Đồng Hới ngắn như ở Huế, Đà Nẵng, Vinh muốn đi du lịch Quảng Bình thì nên lựa chọn tàu hoả sẽ là phương tiện di chuyển an toàn nhất cho bạn và gia đình. Từ Hà Nội nên chọn tàu, SE1,  SE3 chạy từ Hà Nội buổi tối đến Đồng Hới vào sáng ngày hôm sau, tàu QB1 chạy từ Hà Nội lúc 20:05 đến Đồng Hới 08:25 sáng ngày hôm sau.  Tham khảo thêm giờ tàu, giá vé các loại tại website của Đường Sắt Việt Nam: dsvn.vn
+                </p>
+                <ul>
+                    <li><p>Ga Hà Nội – Địa chỉ: 120, Lê Duẩn, Hoàn Kiếm, Hà Nội – Điện thoại: 024.3942 3949/ 024.3822 1724</p></li>
+                    <li><p>Ga Đà Nẵng: Địa chỉ 202 Đường Hải Phòng, Đà Nẵng – Điện thoại: 0236 3823810</p></li>
+                    <li><p>Ga Huế: Địa chỉ 02 Bùi Thị Xuân, Tp. Huế – Điện thoại: 0234. 3822175</p></li>
+                    <li><p>Ga Vinh: Địa chỉ  Số 01 – Đường Lệ Ninh, P. Quán Bàu, TP. Vinh – Điện thoại: 0238 3853 426</p></li>
+                    <li><p>Ga Đồng Hới – Địa chỉ : Tiểu khu 4, Phường Nam Lý , TP. Đồng Hới – Điện thoại:  0232 3836789 </p></li>
+                </ul>
+            </div>
+
+            <div>
+                <h4 class="mt-1 text-success">
+                    1.3 Đến Quảng Bình bằng máy bay 
+                </h4>
+                <p>
+                    Rất dễ dàng bạn có thể đặt chuyến bay thẳng từ Hà Nội và TP Hồ CHí Minh đến Đồng Hới với ba hãng hàng không: <b>Vietjetair, Jetstar, Vietnam airline</b>. Bạn nên có kế hoạch cho chuyến đi sớm và đặt vé tại các phòng vé đại lý chính thức để có giá vé tốt nhất..
+                </p>
+            </div>
+
+            <div>
+                <h3 class="mt-1 text-info">
+                    2. Phương tiện đến Phong Nha Kẻ Bàng
+                </h3>
+                <p>
+                    <b>⇒Từ Hà Nội:</b> có một số xe giường nằm đi Hà Nội đến tận Phong Nha giá từ 250.000 – 280.000đ. Hầu hết các xe xuất phát từ 7-10 giờ tối đến Phong Nha khoảng 4-5 giờ sáng hôm sau. Thời gian đến khá sớm, các điểm tham quan của vườn quốc gia Phong Nha Kẻ Bàng cũng phải từ 7-7h30 giờ sáng mới mở cửa. Trong thời gian đó bạn có thể thuê nhà nghỉ tạm hoặc đi dạo ngắm bình minh. Bạn nên đặt trước vé để đảm bảo được chỗ của mình. Liện hệ một số nhà xe sau:
+                </p>
+                <ul>
+                    <li><p><b>Camel Bus</b>, mua vé tại văn phòng số 459 Trần Khát Chân, Hà Nội. Số điện thoại liên hệ: 0243.9036.036 (8:00AM – 5:00PM) – 0243.9036.036 (8:00AM – 10:00PM) . Thời gian xuất phát là 7- 9 giờ tối, vào khoảng 04:00 – 05:00 sáng ở Phong Nha.</p></li>
+                    <li><p><b>Queen Cafe</b>, văn phòng ở số 208 Trần Quang Khải – Hoàn Kiếm (Hà Nội). Số điện thoại liên hệ: 0243 9036 036 xe xuất phát vào lúc 18:30 tại Hà Nội. Xe nghỉ ăn tối tại Ninh Bình rồi chạy thẳng đến Văn phòng tại Thị Trấn Phong Nha lúc khoảng 4:00 sáng ngày hôm sau. </p></li>
+                </ul>
+            </div>
+
+            <div>
+                <h3 class="mt-1 text-info">
+                    3. Phương tiện từ Đồng Hới đi Phong Nha Kẻ Bàng
+                </h3>
+                <ul>
+                    <li><p><b>Thuê xe ô tô</b> từ 4 – 45 chổ nếu bạn muốn tự tham quan có thể liên hệ công ty chuyên cho <b style="color: brown;">thuê xe ô tô Quảng Bình</b>: 0232.652.8868 – 0232.652.8869</p></li>
+                    <li><p><b>Đi Taxi</b>  có các hãng: <b>Sun Taxi</b>: 0232.353.53.53; <b>Taxi Mai Linh</b>: 0232. 3835.835; <b>Taxi Tiên Sa</b>:  0232.3 79.79.79.</p></li>
+                    <li><p><b>Thuê xe gắn máy</b>: Bạn có thể liên hệ dịch vụ cho thuê xe máy tại lễ tân các khách sạn để đặt xe và giao xe cho bạn bất cứ nơi đâu tại Đồng Hới, giá từ 150.000 VNĐ/xe/ngày. Đi xe máy sẽ rất thuận tiện tuy nhiên khoảng cách hơi xa, đường có nhiều khúc cua nguy hiểm, đường vắng khi xe bị hỏng rất bất tiện bạn cần lưu ý phải đảm bảo sức khỏe và an toàn giao thông.</p></li>
+                    <li><p><b>Xe Honda ôm</b>: đậu ở khắp nơi trong thành phố và có thể đưa các bạn đi khắp nơi. Giá cả thỏa thuận nên hỏi giá trước khi đi.</p></li>
+                </ul>
+            </div>
+
+            <div>
+                <h3 class="mt-1 text-info">
+                    4. Thời gian du lịch Phong Nha Kẻ Bàng
+                </h3>
+                <p>
+                    Quảng Bình nằm ở vùng nhiệt đới gió mùa và luôn bị tác động bởi khí hậu của phía Bắc và phía Nam và được chia làm hai mùa rõ rệt:
+                </p>
+                <p>
+                    <b>Mùa khô</b> (từ tháng 4 – 8), đây là thời gian khá thuận lợi để tham gia vào những chuyến khám phá hang động trong lòng di sản thiên nhiên thế giới Phong Nha – Kẻ Bàng. Trong khi nhiệt độ  ở bên ngoài là 36-37°C thì nhiệt độ trong hang động luôn ở 20-21°C rất mát mẻ dể chịu. Bạn cần mang theo áo chống nắng, kem chống nắng, kính mát, đồ bơi…
+                </p>
+                <div class="row mx-1 text-center">
+                    <div class="col-lg-12">
+                        <img class="w-100 d-inline-block" src="assets/images/PhongNha/pnkb.jpg" alt="">
+                        <p class="py-1 w-100 bg-light d-inline-block font-italic">Thời gian du lịch Phong Nha lý tưởng nhất là vào mùa khô</p>
+                    </div>
+                </div>
+                <p>
+                    <b>Mùa mưa</b> (từ tháng 9 đến tháng 3 năm sau) đặc trưng có gió mùa Đông Bắc, lượng mưa trung bình hàng năm từ 2.000mm – 2.300mm/năm. Vào những ngày nước lớn các cơn bảo lũ, nước sông Son dâng cao che khuất cửa hang, thuyền du lịch không vào đây được nên không thể tham quan Động Phong Nha (Động Nước ). Các điểm Sông Chày Hang Tối, Suối Nước Moọc, Khu du lịch sinh thái Ozo, thung lũng Hava nước chảy xiết và bị đục. Những động khô: Động Tiên Sơn, Động Thiên Đường du khách vẫn có thể tham quan bình thường. Hầu hết các điểm tham quan không thuận lợi, tuy nhiên đây lại là khoảng thời gian đẹp nhất, lý tưởng nhất để treckking Thác Gió – Vườn Thực Vật. Bạn cần chú ý thời gian để lên lịch trình cũng như trang bị dụng cụ, quần áo cho phù hợp. Chuẩn bị áo quần ấm, áo mưa, dù, kem chống côn trùng, giày dép chống trơn trượt.
+                </p>
+            </div>
+
+            <div>
+                <h3 class="mt-1 text-info">
+                    5. Nhà nghĩ – khách sạn Phong Nha
+                </h3>
+                <p>
+                    Nơi nghĩ ngơi lưu trú thì có hai phương án bạn có thể lựa chọn tùy theo nhu cầu và kinh phí của mỗi người. Một là tại khu vực vườn quốc gia Phong Nha Kẻ Bàng (Bố Trạch). Hai là nghĩ ngơi tại thành phố Đồng Hới để buổi tối dạo biển Nhật Lệ, ăn hải sản và khám phá ẩm thực nơi đây củng rất thú vị. Thuận tiện cho bạn trong vấn đề đi lại vì gần ga tàu và sân bay. Số lượng khách sạn tất nhiên là ở Đồng Hới nhiều hơn tại Phong Nha.
+                </p>
+                <h4 class="mt-1 text-success">
+                    5.1 Khách sạn tại Phong Nha Kẻ Bàng
+                </h4>
+                <ul>
+                    <li><p><b>3 sao:</b> Đoàn Gia Resort, Chày Lập Farmstay, Phong Nha LaKe House…</p></li>
+                    <li><p><b>2 sao:</b> Heritage by Night Hotel, khách sạn Sài Gòn Phong Nha, khách sạn Thượng Hải, Victory Road Villas, Karst Villa…</p></li>
+                </ul>
+                <p>
+                    Và có rất nhiều khách sạn, nhà nghỉ, homestay bình dân giá rẻ Funny Monkeys Homestay, khách sạn Hoa Phượng, khách sạn Thu Hà, khách sạn Phương Nam, Lucky homestay, Thảo Nguyên Homestay, Hồ Khanh Homestay, Sông Quê Homestay, Carambola Bungalow, Son river House, Phong Nha Bolero Bungalow …
+                </p>
+            </div>
+
+            <div>
+                <h3 class="mt-1 text-info">
+                    5.2 Khách sạn tại Đồng Hới
+                </h3>
+                <p>
+                    Có rất nhiều khách sạn từ 5 sao đẳng cấp sang trọng đến nhà nghỉ bình dân giá rẻ bạn tha hồ lựa chon. Xin giới thiệu một số khách sạn Đồng Hới đạt chuẩn để bạn tham khảo.
+                </p>
+                <p class="font-weight-bold">Khách sạn gần biển Bảo Ninh.</p>
+                <ul>
+                    <li><p><b>4 - 5 sao</b>: Celina Resort, Sun Spa Resort, khách sạn Biển Vàng; Duy Tân Resort</p></li>
+                    <li><p><b>3 sao</b>: khách sạn Amada, Khách sạn osaka; Hải Đăng Resort</p></li>
+                    <li><p><b>2 sao</b>: khách sạn XO, khách sạn Rose… </p></li>
+                </ul>
+                <p class="font-weight-bold">Khách sạn gần biển Nhật Lê, biển Quang Phú:</p>
+                <ul>
+                    <li><p><b>4 - 5 sao</b>: khách sạn Mường Thanh, khách sạn Vĩnh Hoàng; Khách sạn Phương Bắc, Sea star resort …</p></li>
+                    <li><p><b>3 sao</b>: khách sạn Cao Minh, Manli resort, khách sạn Thanh Phúc 2, khách sạn Phú Cường.</p></li>
+                    <li><p><b>2 sao</b>: Khách sạn Ngân Hà, khách sạn Công Đoàn, khách sạn Sunrise, khách sạn Gia Nguyễn, Bloom Boutique Hotel</p></li>
+                </ul>
+                <p class="font-weight-bold">Khách sạn khu vực sông Nhật Lệ:</p>
+                <ul>
+                    <li><p><b>5 sao</b>: Vinpearl Quảng Bình</p></li>
+                    <li><p><b>4 sao</b>: khách sạn Sài Gòn Quảng Bình;</p></li>
+                    <li><p><b>3 sao</b>: khách sạn Riverside, khách sạn Anh Linh 2, khách sạn ckc Thiên Đường, khách sạn Luxe</p></li>
+                    <li><p><b>2 sao</b>: khách sạn Hữu Nghị, Geminai,…</p></li>
+                </ul>
+                <p class="font-weight-bold">Khách sạn Trung tâm Thành Phố:</p>
+                <ul>
+                    <li><p><b>4 - 5 sao</b>: Khách sạn Royal Quảng bình, Sam, Rex</p></li>
+                    <li><p><b>3 sao</b>: Khách sạn Tường Minh, Tân Bình</p></li>
+                    <li><p><b>2 sao</b>: Khách sạn Windy, khách sạn Minh Quang, Khách sạn Phương Nam, khách sạn Victor, khách sạn Tân Trường Sơn, khách sạn Hạnh Phúc, khách sạn Nam Long 2…</p></li>
+                    <li><p><b>Khách sạn mini, Nhà nghỉ Đồng Hới</b>: Hoa Mai, Sunshine, Hoài Thương, Sic, Hải Thủy, Thùy Dung …</p></li>
+                </ul>
+                <p>Bạn nên đặt trước tránh trường hợp hết phòng. Bạn có thể tham khảo đặt phòng trực tuyến tại các trang website đặt phòng uy tín hoặc liên hệ với chúng tôi để được tư vấn.</p>
+            </div>
+
+            <div>
+                <h3 class="mt-1 text-info">
+                    6. Các điểm tham quan trong vườn quốc gia Phong Nha Kẻ Bàng
+                </h3>
+                <p>
+                    Vườn quốc gia Phong Nha Kẻ Bàng là một trong những vùng đá vôi nhiệt đới cổ đại nhất, rộng lớn nhất thế giới với diện tích trên 200.000 ha, có hệ thống hơn 350 hang động lớn nhỏ, tiềm ẩn nhiều điều kỳ lạ và hấp dẫn.  Bản đồ các tuyến du lịch của vườn quốc gia Phong Nha – Kẻ Bàng để bạn có thể hình dung vị trí của các điểm tham quan.
+                </p>
+                <div class="row mx-1 text-center">
+                    <div class="col-lg-12">
+                        <img class="w-75 d-inline-block" src="assets/images/PhongNha/bandodulichphongnhakebang.jpg" alt="">
+                        <p class="py-1 w-75 bg-light d-inline-block font-italic">Bản Đồ Du Lịch Phong Nha Kẻ Bàng</p>
+                    </div>
+                </div>
+                <p>
+                    Dưới đây là những hang động, điểm du lịch nổi tiếng của vườn quốc gia Phong Nha Kẻ Bàng tiêu biểu nhất để bạn dễ dàng hơn trong việc tìm hiểu và khám phá vườn quốc gia này.
+                </p>
+            </div>
+
+            <div>
+                <h4 class="mt-1 text-success">
+                    6.1 Động Phong Nha
+                </h4>
+                <p>Trong các hang động thì Phong Nha thật sự nổi bật nhất với chiều dài khảo sát gần 8 km, chủ yếu với sông ngầm được xếp vào danh sách hang động có sông ngầm dài nhất thế giới.</p>
+                <p>
+                    Du khách xuống thuyền máy đi theo sông Son vào động Phong Nha. Đến Phong Nha bạn sẽ có cảm giác thật lý thú, thư thái và dễ chịu. Không khí ở đây trong lành và mát mẻ. Những ngày hè, khi ở ngoài “chói chang” cái nắng Quảng Bình hun đốt nhưng khi vào động nhiệt độ chỉ khoảng 17 – 19oC mà thôi. Xuôi thuyền hơn 600m đường nước trong động, du khách được thưởng thức vẻ đẹp thiên nhiên kì vĩ đến choáng ngợp của Đệ nhất động.
+                </p>
+                <div class="row mx-1 text-center">
+                    <div class="col-lg-12">
+                        <img class="w-100 d-inline-block" src="assets/images/PhongNha/dongphongnha1-1024x682.jpg" alt="">
+                        <p class="py-1 w-100 bg-light d-inline-block font-italic">Cửa Động Phong Nha - Ảnh Minh Họa</p>
+                    </div>
+                </div>
+                <p>
+                    Lần lượt khám phá hang Cô Tiên & Cung Đình ngắm thạch nhũ nhiều màu sắc, hình dáng, nghe điệu nhạc trong tiệc rượu của thần núi thoảng trong gió, chiêm ngưỡng nét hùng vĩ của những buồng, hành lang đá vôi phủ đầy thạch nhũ long lanh, cùng cảm giác hồi hộp như đang nằm miệng một con quái vật khổng lồ.
+                </p>
+                <p class="font-weight-bold">Giá vé tham quan Động Phong Nha:</p>
+                <ul>
+                    <li><p>Người lớn: 150.000 vnđ/ 01 vé/ 01 người lớn.</p></li>
+                    <li><p>Em bé có chiều cao dưới 1.3 m được miễn vé tham quan.</p></li>
+                    <li><p>Thuyền tham quan Động Phong Nha: 550.000 vnđ/ 1 thuyền kèm áo phao, chở tối đa 12 khách bao gồm cả trẻ em</p></li>
+                </ul>
+            </div>
+
+            <div>
+                <h4 class="mt-1 text-success">
+                    6.2 Động Tiên Sơn
+                </h4>
+                <p>
+                    Nếu động Phong Nha là động nước có con sông ngầm dài nhất thế giới được ví như chốn thủy cung thì động Tiên Sơn là động khô ở độ cao gần 200m so với mực nước sông Son đẹp như thiên cung với hàng ngàn khối nhũ muôn màu muôn sắc. Tiên Sơn cùng với Phong Nha có sự liên hoàn về vị trí cùng vẻ đẹp cộng hưởng đúng là là tuyệt tác song sinh của tạo hóa.
+                </p>
+                <div class="row mx-1 text-center">
+                    <div class="col-lg-12">
+                        <img class="w-100 d-inline-block" src="assets/images/PhongNha/dongtienson.jpg" alt="">
+                        <p class="py-1 w-100 bg-light d-inline-block font-italic">Động Tiên Sơn</p>
+                    </div>
+                </div>
+                <p>
+                    Để tham quan động Tiên Sơn, du khách phải đi theo các bậc đá trên con đường quanh co uốn lượn để lên được cửa hang. Dọc theo đường lên núi, tại bất cứ điểm dừng chân nào cũng đều mở ra trước mắt du khách một bức tranh làng quê bình dị với những đồng lúa, nương ngô, những con sông Chày, sông Troóc, sông Son hiền hòa uốn mình thơ mộng.
+                </p>
+                <p class="font-weight-bold">Giá vé tham quan Động Tiên Sơn:</p>
+                <ul>
+                    <li><p>Người lớn: 80.000 vnđ/ 01 vé/ 01 người lớn.</p></li>
+                    <li><p>Em bé có chiều cao dưới 1.3 m được miễn vé tham quan.</p></li>
+                    <li><p>Thuyền tham quan Động Phong Nha – Tiên Sơn: 550.000 vnđ/ 1 thuyền kèm áo phao, chở tối đa 12 khách bao gồm cả trẻ em</p></li>
+                </ul>
+            </div>
+
+            <div>
+                <h4 class="mt-1 text-success">
+                    6.3 Động Thiên Đường
+                </h4>
+                <p>
+                    Được mệnh danh là “hoàng cung trong lòng đất”, động Thiên Đường (thuộc huyện Bố Trạch, tỉnh Quảng Bỉnh) là một trong những kỳ quan tráng lệ và huyền ảo bậc nhất thế giới .Động Thiên đường nằm ở km 16 (cách rìa nhánh tây đường Hồ Chí Minh gần 4 km) , từ Động Phong Nha thêm khoảng 20km nữa, nằm trong lòng một quần thể núi đá vôi ở độ cao 191m, bao quanh là khu rừng nguyên sinh thuộc Vườn Quốc gia Phong Nha – Kẻ Bàng. Động Thiên Đường là một hang động khô được đánh giá là dài nhất châu Á. Động Thiên Đường có chiều dài 31,4 km, chiều rộng dao động từ 30 đến 100m, nơi rộng nhất 150m và có chiều cao từ đáy lên trần động khoảng 60m.
+                </p>
+                <div class="row mx-1 text-center">
+                    <div class="col-lg-12">
+                        <img class="w-100 d-inline-block" src="assets/images/PhongNha/dongthienduong.jpg" alt="">
+                        <p class="py-1 w-100 bg-light d-inline-block font-italic">Động Thiên Đường</p>
+                    </div>
+                </div>
+                <p>
+                    Bước vào trong động, mọi người sẽ được thỏa chí tưởng tượng trước vô vàn thạch nhũ có nhiều hình thù khác nhau mà những người “khai phá” đã dùng những ngôn ngữ mỹ miều để đặt tên.Nào Cung Thạch Hoa Viên với khối thạch nhũ như tượng đức mẹ đồng trinh tay bế hài đồng; nào Cung Giao Trì là nơi Ngọc Hoàng bàn việc nước với các cận thần, xung quanh là tượng kỳ lân, chim phượng hoàng…..So với Động Phong Nha thì thạch nhũ ở động Thiên Ðường có nhiều hình thù hơn.
+                </p>
+                <p class="font-weight-bold">Giá vé tham quan Động Thiên Đường:</p>
+                <ul>
+                    <li><p>Người lớn: 250.000 vnđ/ 01 vé/ 01 người lớn.</p></li>
+                    <li><p>Trẻ em từ 1.1m đến 1.3m: 125.000 vnđ/ 01 vé/ 01 trẻ em.</p></li>
+                    <li><p>Em bé có chiều cao dưới 1.1m được miễn vé tham quan.</p></li>
+                    <li><p>Dịch vụ xe điện trung chuyển:</p>
+                        <ul>
+                            <li><p>Xe điện 4 chổ: Giá vé 01 chiều: 60.000đ/tuyến/lượt. Giá vé khứ hồi: 100.000đ/tuyến/vòng</p></li>
+                            <li><p>Xe điện 6 chổ:Giá vé 01 chiều: 90.000đ/tuyến/lượt. Giá vé khứ hồi : 150.000đ/tuyến/vòng</p></li>
+                            <li><p>Xe điện 8 chổ : 200.000vnd/xe/vòng</p></li>
+                            <li><p>Xe điện 14 chỗ: 350.000vnd/xe/vòng</p></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            
+            <div>
+                <h4 class="mt-1 text-success">
+                    6.4 Sông Chày Hang Tối
+                </h4>
+                <p>
+                    Hang Tối Là một nhánh thuộc hệ thống hang động Phong Nha, được các nhà thám hiểm Hoàng gia Anh khảo sát vào năm 1990 và 1992. Hang có cửa rộng 20 mét, cao 40 mét. Giống nhiều hang động ở khu vực Phong Nha – Kẻ Bàng, hang Tối vừa là hang nước, vừa là hang khô với chiều dài 5.258m, cao 80m. Hang Tối là tên được đoàn thám hiểm hang động Hoàng gia Anh đặt, bởi “ánh sáng tối” trong hang như đặc quánh lại khiến người ta ngỡ như có thể tay chạm vào được.
+                </p>
+                <div class="row mx-1 text-center">
+                    <div class="col-lg-12">
+                        <img class="w-100 d-inline-block" src="assets/images/PhongNha/songchayhangtoi.jpg" alt="">
+                        <p class="py-1 w-100 bg-light d-inline-block font-italic">Sông Chày Hang Tối</p>
+                    </div>
+                </div>
+                <p>
+                    Hang tổi vẫn còn nguyên sơ với hàng ngàn cột nhũ đá hình thù đa dạng và đặc sắc và là nơi ẩn cư của nhiều loài động vật như dơi, chim én. Đặc biệt, khu vực của hang cũng là nơi trú ẩn của loài voọc Hà Tĩnh – một trong những loài linh trưởng có tên trong sách đỏ của Việt Nam. Do nằm ngay bên sông, độ ẩm cao nên thạch nhũ tại Hang Tối được phủ một lượng rêu phong lớn tạo nên màu xanh đặc trưng.Hang tối còn nguyên sơ không có hệ thống chiếu sáng như động Phong Nha , Động Thiên Đường  bạn có thể đi trên cầu thang gổ dài 1 km sau đó tự khám phá bằng ánh sáng của đèn đội đầu. Đến đây bạn được tham gia dịch vụ đu dây trên không zipline vào cửa hang Tối, zipline tắm sông Chày và rất nhiều trò chơi thể thao vui nhộn.
+                </p>
+                <p class="font-weight-bold">Giá vé tham quan Sông Chày Hang Tối:</p>
+                <ul>
+                    <li><p>Người lớn vé trọn gói: 450.000đ/khách (cao trên 1.3m, trọng lượng từ 40-90kg). Bao gồm: Zipline qua hang tối, khám phá hang tối và tắm bùn, Kayak, Zipline tắm sông, Cầu mạo hiểm, bóng rổ, bóng ném và các trò chơi thể thao dưới nước,Thiết bị khám phá, an toàn…</p></li>
+                    <li><p>Trẻ em: 150.000 đ/khách ( cao từ 1m – 1.3m, không đu zipline, sử dụng thuyền kayak cùng bố mẹ). Bao gồm: Khám phá hang tối và tắm bùn; thiết bị khám phá, an toàn…các trò chơi thể thao dưới nước (ko bao gồm các trò chơi cảm giác mạnh).</p></li>
+                    <li><p>Trẻ em: 110.000đ/khách( cao từ 1m-1,3m, chỉ tham gia các trò chơi dưới nước, không bao gồm các trò chơi cảm giác mạnh)</p></li>
+                    <li><p>Trẻ em: Miễn phí( cao dưới 1m, chỉ được sử dụng bể bơi dành cho trẻ em)</p></li>
+                    <li><p>Vé tham quan thông thường 270.000đ/khách (chỉ dành cho người cao từ 1,3m trở lên, trọng lượng trên 40kg và dưới 90kg ). Bao gồm: Zipline qua hang tối, Kayak,Zipline tắm sông, Cầu mạo hiểm, các trò chơi thể thao dưới nước, thiết bi an toàn.</p></li>
+                </ul>
+            </div>
+
+            <div>
+                <h4 class="mt-1 text-success">
+                    6.5 Suối Nước Moọc
+                </h4>
+                <p>
+                    Từ khu du lịch Phong Nha, dọc theo đường Hồ Chí Minh (nhánh đông) theo hướng Bắc đến ngã 3 Khe Gát rẽ về hướng Tây đường Hồ Chí Minh (nhánh Tây) khoảng 10 km là đến điểm du lịch sinh thái suối Nước Moọc. Du khách cũng có thể theo thuyền ngược dòng Son, rẽ về dòng Chày hơn 6km là cũng đến được điểm du lịch nói trên.
+                </p>
+                <div class="row mx-1 text-center">
+                    <div class="col-lg-12">
+                        <img class="w-100 d-inline-block" src="assets/images/PhongNha/suoinuocmooc.jpg" alt="">
+                        <p class="py-1 w-100 bg-light d-inline-block font-italic">Suối Nước Moọc</p>
+                    </div>
+                </div>
+                <p>
+                    Khu du lịch sinh thái suối Moọc thật sự không giống các điểm du lịch khác ở Vườn Quốc gia Phong Nha – Kẻ Bàng, nơi đây vẫn giữ được vẻ hoang sơ và tinh khôi vốn có, thật sự hấp dẫn và gây nhiều bất ngờ ấn tượng với du khách.Vẻ đẹp nên thơ, khung cảnh sơn thuỷ hữu tình, không khí trong lành nơi Suối Nước Moọc là điểm du lịch, nghỉ ngơi, thư giãn hấp dẫn đối với du khách gần xa khi đến với Quảng Bình.
+                </p>
+                <p class="font-weight-bold">Giá vé tham quan Suối Nước Moọc:</p>
+                <ul>
+                    <li><p>Vé dịch vụ trọn gói: 180.000 vnđ/ 01 vé/ 01 người lớn (Bao gồm: Tắm suối, Nhảy ùm, Thuyền Kayak, Áo phao, Mái chèo, Cứu hộ).</p></li>
+                    <li><p>Trẻ em 1,3m trở lên: 100.000 đ/lượt.</p></li>
+                    <li><p>Vé tham quan thông thường: 80.000 vnđ/ 01 vé .Trẻ em có chiều cao dưới 1.3m được miễn vé tham quan.</p></li>
+                </ul>
+            </div>
+
+            <div>
+                <h4 class="mt-1 text-success">
+                    6.6 Thung Lũng Hava
+                </h4>
+                <p>
+                    Thung lũng Hava Quảng Bình một điểm đến mới có vị trí đắc địa nằm bên dòng Sông Chày êm đềm thơ mộng và ngay trước cửa Hang Tối. Đến đây du khách sẽ được đắm mình trong khung cảnh thiên nhiên tuyệt vời của núi rừng nơi đây.
+                </p>
+                <div class="row mx-1 text-center">
+                    <div class="col-lg-12">
+                        <img class="w-100 d-inline-block" src="assets/images/PhongNha/thunglunghava.jpg" alt="">
+                        <p class="py-1 w-100 bg-light d-inline-block font-italic">Thung Lũng Hava</p>
+                    </div>
+                </div>
+                <p>
+                    Khám phá vịnh Sỏi Vàng: Chèo Kayak xuôi dòng sông Chày cùng chiêm ngưỡng Vịnh Ha Long thu nhỏ giữa lòng di sản, và là điểm đẹp nhất để checkin giữa dòng sông thơ mộng. Chèo Kayak/ Sup tản mạn giữa dòng sông, cùng ngắm cảnh nước non hùng vĩ. Hoà mình trong dòng nước xanh biếc, mát rượi, cùng vẫy vùng, cảm giác như rũ bỏ được tất cả muộn phiền của cuộc sống. Tham gia đu dây Zipline tỏm hay được gọi là trò chơi vượt qua chính mình, trượt máng 2 làn siêu tốc độ dài nhất Quảng Bình, nhảy cầu cảm giác mạnh 3 tốc độ. Đến Vọng cảnh đài cách mặt nước 25m: Từ độ cao này, du khách sẽ được thu lại được những khoảng khắc tuyệt đẹp của phong cảnh tại Hava!
+                </p>
+                <p class="font-weight-bold">Giá vé tham quan Thung Lũng Hava:</p>
+                <ul>
+                    <li><p>Người lớn: 150.000 vnđ ( bao gồm: Chèo Kayak xuôi dòng sông Chày, tắm sông,  Zipline, trượt máng, nhảy cầu, vọng cảnh đài…)</p></li>
+                </ul>
+            </div>
+
+            <div>
+                <h4 class="mt-1 text-success">
+                    6.7 Thác Gió - Vườn Thực Vật
+                </h4>
+                <p>
+                    Thác Gió Vườn Thực Vật nằm ở km 9 đường 20 Quyết Thắng đến đây là điểm tha quan du lịch dành cho những ai yêu thích thiên nhiên động vật hoang dã, leo núi. Đến đây bạn có thể tham quan nhà trưng bày gồm những mẫu động, thực vật quý hiếm đặc trưng của Vườn quốc gia Phong Nha-Kẻ Bàng.
+                </p>
+                <div class="row mx-1 text-center">
+                    <div class="col-lg-12">
+                        <img class="w-100 d-inline-block" src="assets/images/PhongNha/thacgio.jpg" alt="">
+                        <p class="py-1 w-100 bg-light d-inline-block font-italic">Thác Gió - Vườn Thực Vật</p>
+                    </div>
+                </div>
+                <p>
+                    Tiếp tục hành trình men theo con đường nhỏ hướng dẫn viên đưa du khách tiến sâu vào khu rừng già để chinh phục đỉnh Thác Gió. Càng đi sâu vào rừng, không khí càng trong lành, dịu mát cảm thấy sảng khoái vô cùng. Sau khoảng mười lăm phút đi bộ dưới tán rừng nguyên sinh, du khách đã được ngắm nhìn Thác Gió tung bọt trắng xóa một bức tranh thiên nhiên thật hùng vĩ. Đến Hồ Vàng Anh thư giãn tự do nghỉ ngơi và bơi lội dưới làn nước trong xanh mát lạnh. Ngắm chim hồng hoàng, tận mắt xem những màn múa của chim công, một trong mười loài chim đẹp nhất hành tinh…
+                </p>
+                <p class="font-weight-bold">Vé tham quan Vườn Thực Vật Phong Nha:</p>
+                <ul>
+                    <li><p>Người lớn: 40.000 vnđ/ 01 vé/ 01 người lớn</p></li>
+                    <li><p>Trẻ em: 50% giá vé người lớn</p></li>
+                    <p>Tùy theo sức khỏe quý khách có thể lựa chọn lộ trình phù hợp:</p>
+                    <li><p><b>Lộ trình tham quan 1</b> (dài 2.500m): Nhà Trưng bày mẫu vật – Vườn ươm cây giống bản địa – Hồ Vàng Anh – Cây Sao trăm tuổi – Đồi vọng cảnh – Thác Gió.</p></li>
+                    <li><p><b>Lộ trình tham quan 2</b> (dài 5.000m): Nhà Trưng bày mẫu vật – Thác Gió – Thác Tiên – cây Gùa cổ thụ – Hang Đạn – Cây Sao trăm tuổi – Hồ Vàng Anh (áp dụng cho du khách đi tham quan theo tour có hướng dẫn viên đi cùng, không áp dụng cho khách tham quan tự do). Mỗi ngày không quá 5 chuyến tham quan và không quá 20 người/chuyến.</p></li>
+                </ul>
+            </div>
+
+            <div>
+                <h4 class="mt-1 text-success">
+                    6.8 Công Viên Ozo
+                </h4>
+                <p>
+                    Công viên Ozo nằm trên đường 20 Quyết Thắng có diện tích gần 5 ha, là công viên có hệ thống trò chơi trên cây dài nhất Việt Nam và cũng là một trong những công viên nằm trong rừng nguyên sinh đầu tiên ở Việt Nam. Đến đây, du khách có thể đi bộ qua những cầu gỗ, cây cầu treo qua suối uốn lượn mềm mại được bao phủ bởi những tán cây cổ thụ, tận hưởng bầu không khí trong lành, thỏa sức chụp hình. Được thử thách bản thân chinh phục 22 trò chơi trên cây, trải nghiệm chèo kayak, thuyền sup, chèo thuyền xuôi thác 999 m của dòng suối Ozo…Đặc biệt nơi đây có dịch vụ cắm trại qua đêm giúp bạn hòa mình vào thiên nhiên, khám phá Vườn quốc gia về đêm.
+                </p>
+                <div class="row mx-1 text-center">
+                    <div class="col-lg-12">
+                        <img class="w-100 d-inline-block" src="assets/images/PhongNha/Ozo.jpg" alt="">
+                        <p class="py-1 w-100 bg-light d-inline-block font-italic">Công Viên Ozo</p>
+                    </div>
+                </div>
+                <p class="font-weight-bold">
+                    Chương trình khuyến mãi tại Công viên Ozo:
+                </p>
+                <ul>
+                    <li><p>Vé người lớn (cao từ 1.4m trở lên): 200.000đ</p></li>
+                    <li><p>Vé trẻ em (cao từ 1 – 1.4m): Giảm từ 100.000đ</p></li>
+                    <li><p>Trẻ em cao dưới 1m: Miễn phí vé</p></li>
+                    <li><p>Dịch vụ thuê chèo thuyền Kayak/ SuPing: 200.000vnd / 1 giờ</p></li>
+                </ul>
+                <p class="font-weight-bold">
+                    Hoạt động bao gồm trong vé:
+                </p>
+                <ul>
+                    <li><p>Đi bộ sàn đạo 999m</p></li>
+                    <li><p>Xích đu vô cực trên đồi cỏ</p></li>
+                    <li><p>Tazan zipline (1 lượt)</p></li>
+                    <li><p>Tắm suối Ozo</p></li>
+                    <li><p>Thăm quan chụp hình</p></li>
+                </ul>
+            </div>
+
+            <div>
+                <h4 class="mt-1 text-success">
+                    6.9 Thung Lũng Sinh Tồn – Hang Thủy Cung
+                </h4>
+                <p>
+                    Tuyến thung lũng Sinh Tồn – hang Thủy Cung là một trong những sản phẩm du lịch đặc sắc dành cho những du khách đam mê thiên nhiên hoang dã. Thung lũng Sinh Tồn có diện tích trải rộng đến 2.000 ha, hội tụ nhiều dạng địa hình, từ núi đá vôi, đất bằng, hang động đến suối ngầm. Dọc lộ trình, du khách còn chiêm ngưỡng nhiều kiểu thảm thực vật là nơi ẩn cư của nhiều loài động vật hoang dã quý hiếm.
+                </p>
+                <div class="row mx-1 text-center">
+                    <div class="col-lg-12">
+                        <img class="w-100 d-inline-block" src="assets/images/PhongNha/hangthuycung.jpg" alt="">
+                        <p class="py-1 w-100 bg-light d-inline-block font-italic">Thung Lũng Sinh Tồn - Hang Thuỷ Cung</p>
+                    </div>
+                </div>
+                <p>
+                    Nối tiếp hành trình băng rừng lội suối qua thung lũng Sinh Tồn, bạn sẽ được khám phá tiếp hơn 500m chiều dài của hang Nước Lặn (cửa sau của Hang Tối) và hang Thủy Cung (Hang E) kỳ ảo. Đây là những hang động cổ sơ nhất của hệ thống Hang Tối, là mẫu hình độc đáo về sự hình thành địa chất, địa mạo và hang động tại vườn quốc gia Phong Nha Kẻ Bàng. Đặc biệt, để đến được hang Thủy Cung, bạn sẽ được trang bị đèn pin, và bơi qua dòng sông ngầm có màu nước xanh như ngọc bích, cảnh quan tuyệt đẹp như chốn thủy cung. Càng sâu vào bên trong, bạn sẽ ngỡ ngàng trước vẻ tráng lệ, nét huyền ảo của thạch nhũ muôn hình. Đồng thời đây cũng dịp để bạn quan sát một số loài động vật và các loài cá kỳ lạ chỉ sống trong môi trường hang động.
+                </p>
+                <ul>
+                    <li><p>Giá Tour thung lũng Sinh Tồn – Hang Thủy Cung 1 ngày: 1.950.000 vnđ/1 khách.</p></li>
+                </ul>
+            </div>
+
+            <div>
+                <h4 class="mt-1 text-success">
+                    6.10 Hang Tám Cô
+                </h4>
+                <p>
+                    Hang Tám Cô thuộc hệ thống di tích đường Hồ Chí Minh, được Bộ Văn hóa – Thông tin xếp hạng di tích lịch sử cấp quốc gia vào năm 1986 là điểm du lịch tâm linh cực linh thiêng.
+                </p>
+                <div class="row mx-1 text-center">
+                    <div class="col-lg-12">
+                        <img class="w-100 d-inline-block" src="assets/images/PhongNha/hangtamco.jpg" alt="">
+                        <p class="py-1 w-100 bg-light d-inline-block font-italic">Hang Tám Cô</p>
+                    </div>
+                </div>
+                <p>
+                    Hang Tám Cô nằm ở km 16+500 trên con đường 20 Quyết Thắng xuyên dãy Trường Sơn huyền thoại. Nơi đây là một trong những tọa độ lửa bị bom đạn Mỹ đánh phá ngày đêm nhằm chặt đứt sự chi viện của miền Bắc cho miền Nam. Ngày 14.11.1972, máy bay Mỹ ném bom đánh sập một mảng núi, lấp cửa hang, trong đó có một tiểu đội TNXP chôn vùi 8 thanh niên xung phong cùng với huyền thoại về sự hy sinh anh dũng của họ.
+                </p>
+                <ul>
+                    <li><p><b>Vé tham quan Hang Tám Cô</b>: Miễn phí</p></li>
+                </ul>
+            </div>
+
+            <div>
+                <h4 class="mt-1 text-success">
+                    6.11 Đỉnh Núi U Bò
+                </h4>
+                <p>
+                    Đỉnh U Bò nằm ở độ cao 1.009m so với mực nước biển, đỉnh núi cao nhất của khu vực Phong Nha Kẻ Bàng. Với vẻ đẹp nguyên sinh, độ đa dạng sinh học cao là địa điểm lý tưởng để thực hiện những chuyến trekking, thưởng ngoạn vẻ đẹp núi rừng Trường Sơn. Khí hậu ở đây rất mát mẻ, nhiệt độ quanh năm từ 22 đến 24 độ C. Nên từ rất lâu người dân nơi đây vẫn ví U Bò như là một Sa Pa, Bà Nà hay Đà Lạt thu nhỏ của Quảng Bình. Trở thành điểm tránh nóng lý tưởng vào mùa hè.
+                </p>
+                <div class="row mx-1 text-center">
+                    <div class="col-lg-12">
+                        <img class="w-100 d-inline-block" src="assets/images/PhongNha/dinhubo.jpg" alt="">
+                        <p class="py-1 w-100 bg-light d-inline-block font-italic">Chòi canh lửa của kiểm lâm trên đỉnh U Bò</p>
+                    </div>
+                </div>
+                <p>
+                    Xuất phát từ thành phố Đồng Hới, tỉnh Quảng Bình, đi về hướng khu vực vườn quốc gia Phong Nha Kẻ Bàng, đến cầu Trạ Ang rồi tiếp tục rẽ vào đường Hồ Chí Minh nhánh Tây đi tiếp thêm 40km sẽ đến trạm kiểm lâm nằm ngay dưới chân núi U Bò. Để lên đến được đỉnh, du khách sẽ phải băng hơn 1km đường rừng. Có cơ hội tiếp cận với lớp thực vật phong phú, ngắm nhìn hoa đào chuông, đào bánh xe…hay những cây cổ thụ to đến hai người ôm. Khu vực này ẩm ướt, rậm rạp dưới tán cây nên có nhiều vắt. Du khách nên chuẩn bị thuốc chống vắt, quần và tất dài. Trên đỉnh U Bò là chòi canh lửa của kiểm lâm. Trên chòi canh, phóng tầm mắt ra xung quanh, du khách được chiêm ngưỡng rừng nguyên sinh hùng vĩ. Những ngày trời quang mưa tạnh, đứng từ đỉnh nằm gần biên giới phía Tây vẫn có thể quan sát rõ thành phố Đồng Hới và bãi cát dài.
+                </p>
+                <ul>
+                    <li><p>Vé tham quan đỉnh U Bò hoàn toàn miễn phí, tuy nhiên bạn cần xin phép cán bộ kiểm lâm.</p></li>
+                </ul>
+            </div>
+
+            <div>
+                <h4 class="mt-1 text-success">
+                    6.12 Thôn Trằm Mé
+                </h4>
+                <p>
+                    Thôn Trằm Mé nằm bên cạnh động Phong Nha, nơi đầu nguồn của sông Son chảy qua. Ngôi làng mang đến cho du khách một không gian yên tĩnh, thanh bình với những nếp nhà nhỏ, mang nét truyền thống tiêu biểu cho hình ảnh thôn làng bên sông của miền Trung. Vài năm gần đây Thôn Trằm Mé trở thành địa điểm du lịch khá nổi tiếng, đặc biệt là du khách nước ngoài và giới trẻ chọn là điểm đến không thể bỏ qua trong hành trình khám phá miền đất di sản này.
+                </p>
+                <div class="row mx-1 text-center">
+                    <div class="col-lg-12">
+                        <img class="w-100 d-inline-block" src="assets/images/PhongNha/cautreotramme.jpg" alt="">
+                        <p class="py-1 w-100 bg-light d-inline-block font-italic">Cầu treo Trằm Mé</p>
+                    </div>
+                </div>
+                <p>
+                    Sau khi tham quan các hang động, nếu còn thời gian muốn ghé thăm làng, bạn có thể đi thẳng theo Đường 20, đến vị trí di tích bến phà Nguyễn Văn Trỗi xưa là sẽ thấy bến đò ngang. Mỗi chuyến đò sang sông cần 2 người đứng ở hai đầu lái đò, không có động cơ chỉ chèo chống bằng tay nên bà con rất vất vả, giá đi đò cho người dân địa phương nơi đây là 2.000đ/ lượt, xe máy xe đạp thì 3.000đ/ chiếc. Bến đò ở Làng Trằm Mé chỉ phục vụ cho người dân và du khách muốn vào làng thăm quan, dạo chơi, không được phép di chuyển thăm quan Động Phong Nha từ vị trí này bạn nhé.
+                </p>
+                <p>
+                    Khi mùa mưa bão đến mọi tuyến đường giao thông đi lại ra vào làng đều bị chia cắt, vào mùa mưa lũ làng chỉ có một con đường đi duy nhất để kết nối với bên ngoài qua chiếc cầu treo. Cầu treo Trằm Mé vào mùa lũ nước sông dâng cao, gập đến chân cầu cùng những xoáy nước rất xiết nên ít người dám mạo hiểm đi lại trên cầu, không có cách nào khác, cuối cùng đò ngang qua sông vẫn là phương tiện vận chuyển chính giúp bà con đi lại và cung cấp lương thực, thực phẩm.
+                </p>
+                <p>
+                    Ngoài vườn quốc gia Phong Nha Kẻ Bàng bạn có thể tham quan các điểm đến nổi tiếng khác tại Quảng Bình như:
+                </p>
+                <ul>
+                    <li><p><b>Khu vực thành phố Đồng Hới</b>: Di tích tháp chuông nhà thờ Tam Tòa, Quảng Bình Quan, Tượng Đài Mẹ Suốt, Cồn Cát Quang Phú, biển Nhật Lệ, biển Bảo Ninh, Quảng Trường Hồ Chí Minh, Bảo Tàng Quảng Bình, nhà thờ Tam Tòa, Chùa Đại Giác.</p></li>
+                    <li><p><b>Khu vực Phía Bắc Quảng Bình</b>: Đèo Ngang Hoành Sơn Quan, Vũng Chùa Đảo Yến nơi yên nghỉ của Đại Tướng Võ Nguyên Giáp, đền thờ Thánh Mẫu Liễu Hạnh, Làng Bích Họa Cảnh Dương, biển Đá Nhảy.</p></li>
+                    <li><p><b>Khu vực Phía Nam Quảng Bình</b>: Suối nước nóng Bang, Chùa Hoằng Phúc, Đền thờ tưởng niệm liệt sỹ Trường Sơn Phà Long Đại, nhà lưu niệm đại tướng Võ Nguyên Giáp, Núi Thần Đinh, cánh đồng điện gió Quảng Bình.</p></li>
+                </ul>
+            </div>
+            <div>
+                <p>Nguồn: phongnhaexplorer.com</p>
+            </div>
+        </div>
+        <hr>
+        <div class="recommend">
+            <h4 class="font-weight-bold mt-1 text-primary">
+                Có thể bạn sẽ thích
+            </h4>
+            <div class="ml-2">
+                <div>
+                    <a href="nhatrang.html"><i class="fa-solid fa-circle-chevron-right"></i> Bãi Biển Nha Trang</a>
+                </div>
+                <div>
+                    <a href="phoco.html"><i class="fa-solid fa-circle-chevron-right"></i> Phố Cổ Hà Nội</a>
+                </div>
+                <div>
+                    <a href="nhatho.html"><i class="fa-solid fa-circle-chevron-right"></i> Nhà Thờ Đức Bà</a>
+                </div>
+                
+            </div>
+        </div>
+
+    </section>
+
+
+    
+    <!-- Footer -->
+    <footer class="gnill-footer bg-bottom gnill-no-pt bg-dark" style="background-image: url(assets/images/footerBG.jpg);">
+        <div class="container">
+              <div class="row mb-5">
+                <div class="col-md pt-5">
+                    <div class="gnill-footer-widget pt-md-5 mb-4">
+                        <h2 class="gnill-heading-2">Giới thiệu</h2>
+                        <p>
+                            Phương châm của chúng tôi là mang đến cho khách hàng những dịch vụ du lịch tốt nhất, rẻ nhất và ý nghĩa nhất. Trả lời thắc mắc và câu hỏi của các bạn là nghĩa vụ của chúng tôi. 
+                        </p>
+                        <ul class="gnill-footer-social list-unstyled float-md-left float-lft">
+                            <li class="gnill-animate"><a href="#"><span class="fa-brands fa-twitter"></span></a></li>
+                            <li class="gnill-animate"><a href="#"><span class="fa-brands fa-facebook"></span></a></li>
+                            <li class="gnill-animate"><a href="#"><span class="fa-brands fa-instagram"></span></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md pt-5 border-left">
+                      <div class="gnill-footer-widget pt-md-5 mb-4 ml-md-5">
+                        <h2 class="gnill-heading-2">Thông tin</h2>
+                        <ul class="list-unstyled">
+                              <li><a href="dulich.html" class="py-2 d-block">Điểm du lịch</a></li>
+                            <li><a href="car-rent-page-1.html" class="py-2 d-block">Xe du lịch</a></li>
+                            <li><a href="lienhe.html" class="py-2 d-block">Liên hệ với chúng tôi</a></li>
+                            <li><a href="thongtin.html" class="py-2 d-block">Thông tin về chúng tôi</a></li>
+                        </ul>
+                      </div>
+                </div>
+                <div class="col-md pt-5 border-left">
+                    <div class="gnill-footer-widget pt-md-5 mb-4">
+                        <h2 class="gnill-heading-2">Bạn có thắc mắc?</h2>
+                        <div class="block-23 mb-3">
+                            <ul>
+                                <li><span class="icon fa fa-map-marker"></span><span class="text">127 Đường Lê Hồng Phong, Trường Thi, Thành phố Vinh, Nghệ An</span></li>
+                                <li><a href="#"><span class="icon fa fa-phone"></span><span class="text">+84 904 786 893</span></a></li>
+                                <li><a href="#"><span class="icon fa fa-paper-plane"></span><span class="text">manhphuc2003@gmail.com</span></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <p>
+                        &copy;<script>document.write(new Date().getFullYear());</script> GNILLEVART
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery-migrate-3.0.1.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="https://cdn.rawgit.com/afeld/bootstrap-toc/v1.0.1/dist/bootstrap-toc.min.js"></script>
+<script src="js/jquery.easing.1.3.js"></script>
+<script src="js/jquery.waypoints.min.js"></script>
+<script src="js/jquery.stellar.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/jquery.magnific-popup.min.js"></script>
+<script src="js/jquery.animateNumber.min.js"></script>
+<script src="js/bootstrap-datepicker.js"></script>
+<script src="js/scrollax.min.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+<script src="js/google-map.js"></script>
+<script src="js/gnillevart.js"></script>
+<script src="js/main.js"></script>
+
+</body>
+</html>
